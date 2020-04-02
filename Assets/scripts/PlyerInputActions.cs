@@ -25,6 +25,14 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": ""Vector2"",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""MoveMother"",
+                    ""type"": ""Button"",
+                    ""id"": ""86bbe513-b8d8-472c-949d-2143c35670d7"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -82,6 +90,61 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""action"": ""move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Arrows"",
+                    ""id"": ""60981b70-7c00-4ebd-a23e-3c816c63012f"",
+                    ""path"": ""2DVector"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveMother"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""up"",
+                    ""id"": ""5c6fca36-35e2-47d6-aeb0-777ff907de47"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""down"",
+                    ""id"": ""1c7031bc-aa29-427f-b206-d06c8f08026f"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""left"",
+                    ""id"": ""9eb5f985-9a51-499a-a4db-54d1a9c1928a"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
+                    ""id"": ""797caaa0-2fa0-4ff1-9f84-57f5f9181603"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""MoveMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -91,6 +154,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         // map0
         m_map0 = asset.FindActionMap("map0", throwIfNotFound: true);
         m_map0_move = m_map0.FindAction("move", throwIfNotFound: true);
+        m_map0_MoveMother = m_map0.FindAction("MoveMother", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -141,11 +205,13 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     private readonly InputActionMap m_map0;
     private IMap0Actions m_Map0ActionsCallbackInterface;
     private readonly InputAction m_map0_move;
+    private readonly InputAction m_map0_MoveMother;
     public struct Map0Actions
     {
         private @PlyerInputActions m_Wrapper;
         public Map0Actions(@PlyerInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @move => m_Wrapper.m_map0_move;
+        public InputAction @MoveMother => m_Wrapper.m_map0_MoveMother;
         public InputActionMap Get() { return m_Wrapper.m_map0; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -158,6 +224,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @move.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
                 @move.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
                 @move.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
+                @MoveMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
+                @MoveMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
+                @MoveMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
             }
             m_Wrapper.m_Map0ActionsCallbackInterface = instance;
             if (instance != null)
@@ -165,6 +234,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @move.started += instance.OnMove;
                 @move.performed += instance.OnMove;
                 @move.canceled += instance.OnMove;
+                @MoveMother.started += instance.OnMoveMother;
+                @MoveMother.performed += instance.OnMoveMother;
+                @MoveMother.canceled += instance.OnMoveMother;
             }
         }
     }
@@ -172,5 +244,6 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     public interface IMap0Actions
     {
         void OnMove(InputAction.CallbackContext context);
+        void OnMoveMother(InputAction.CallbackContext context);
     }
 }
