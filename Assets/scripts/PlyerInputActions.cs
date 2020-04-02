@@ -19,7 +19,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
             ""id"": ""d1e150ae-10dd-4003-9f45-da63604cabf3"",
             ""actions"": [
                 {
-                    ""name"": ""move"",
+                    ""name"": ""moveChild"",
                     ""type"": ""Value"",
                     ""id"": ""059ca558-f79e-4538-b00e-b52e5170c24c"",
                     ""expectedControlType"": ""Vector2"",
@@ -35,7 +35,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""move"",
+                    ""action"": ""moveChild"",
                     ""isComposite"": true,
                     ""isPartOfComposite"": false
                 },
@@ -46,7 +46,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""move"",
+                    ""action"": ""moveChild"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -57,7 +57,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""move"",
+                    ""action"": ""moveChild"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -68,7 +68,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""move"",
+                    ""action"": ""moveChild"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
@@ -79,7 +79,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""move"",
+                    ""action"": ""moveChild"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 }
@@ -90,7 +90,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
 }");
         // map0
         m_map0 = asset.FindActionMap("map0", throwIfNotFound: true);
-        m_map0_move = m_map0.FindAction("move", throwIfNotFound: true);
+        m_map0_moveChild = m_map0.FindAction("moveChild", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -140,12 +140,12 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     // map0
     private readonly InputActionMap m_map0;
     private IMap0Actions m_Map0ActionsCallbackInterface;
-    private readonly InputAction m_map0_move;
+    private readonly InputAction m_map0_moveChild;
     public struct Map0Actions
     {
         private @PlyerInputActions m_Wrapper;
         public Map0Actions(@PlyerInputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @move => m_Wrapper.m_map0_move;
+        public InputAction @moveChild => m_Wrapper.m_map0_moveChild;
         public InputActionMap Get() { return m_Wrapper.m_map0; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -155,22 +155,22 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_Map0ActionsCallbackInterface != null)
             {
-                @move.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
-                @move.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
-                @move.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMove;
+                @moveChild.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveChild;
+                @moveChild.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveChild;
+                @moveChild.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveChild;
             }
             m_Wrapper.m_Map0ActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @move.started += instance.OnMove;
-                @move.performed += instance.OnMove;
-                @move.canceled += instance.OnMove;
+                @moveChild.started += instance.OnMoveChild;
+                @moveChild.performed += instance.OnMoveChild;
+                @moveChild.canceled += instance.OnMoveChild;
             }
         }
     }
     public Map0Actions @map0 => new Map0Actions(this);
     public interface IMap0Actions
     {
-        void OnMove(InputAction.CallbackContext context);
+        void OnMoveChild(InputAction.CallbackContext context);
     }
 }
