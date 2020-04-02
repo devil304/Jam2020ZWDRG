@@ -33,6 +33,14 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ActionMother"",
+                    ""type"": ""Button"",
+                    ""id"": ""828b2899-0810-46e9-9a1d-8826c4a5a99d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -145,6 +153,17 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""action"": ""MoveMother"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""255e885a-769c-4bcd-b737-4354b216569a"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ActionMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -155,6 +174,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         m_map0 = asset.FindActionMap("map0", throwIfNotFound: true);
         m_map0_moveChild = m_map0.FindAction("moveChild", throwIfNotFound: true);
         m_map0_MoveMother = m_map0.FindAction("MoveMother", throwIfNotFound: true);
+        m_map0_ActionMother = m_map0.FindAction("ActionMother", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -206,12 +226,14 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     private IMap0Actions m_Map0ActionsCallbackInterface;
     private readonly InputAction m_map0_moveChild;
     private readonly InputAction m_map0_MoveMother;
+    private readonly InputAction m_map0_ActionMother;
     public struct Map0Actions
     {
         private @PlyerInputActions m_Wrapper;
         public Map0Actions(@PlyerInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @moveChild => m_Wrapper.m_map0_moveChild;
         public InputAction @MoveMother => m_Wrapper.m_map0_MoveMother;
+        public InputAction @ActionMother => m_Wrapper.m_map0_ActionMother;
         public InputActionMap Get() { return m_Wrapper.m_map0; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -227,6 +249,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @MoveMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
                 @MoveMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
                 @MoveMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnMoveMother;
+                @ActionMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
+                @ActionMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
+                @ActionMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
             }
             m_Wrapper.m_Map0ActionsCallbackInterface = instance;
             if (instance != null)
@@ -237,6 +262,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @MoveMother.started += instance.OnMoveMother;
                 @MoveMother.performed += instance.OnMoveMother;
                 @MoveMother.canceled += instance.OnMoveMother;
+                @ActionMother.started += instance.OnActionMother;
+                @ActionMother.performed += instance.OnActionMother;
+                @ActionMother.canceled += instance.OnActionMother;
             }
         }
     }
@@ -245,5 +273,6 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     {
         void OnMoveChild(InputAction.CallbackContext context);
         void OnMoveMother(InputAction.CallbackContext context);
+        void OnActionMother(InputAction.CallbackContext context);
     }
 }

@@ -20,6 +20,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ActionMother",
+                    "type": "Button",
+                    "id": "828b2899-0810-46e9-9a1d-8826c4a5a99d",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -132,6 +140,17 @@
                     "action": "MoveMother",
                     "isComposite": false,
                     "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "255e885a-769c-4bcd-b737-4354b216569a",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActionMother",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }
