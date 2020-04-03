@@ -28,6 +28,14 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "CrouchMother",
+                    "type": "Button",
+                    "id": "774ae0a5-9814-4920-8a2b-b056235ac17c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
@@ -149,6 +157,17 @@
                     "processors": "",
                     "groups": "",
                     "action": "ActionMother",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ecc33e46-cedf-4506-a17e-fafa0decdd81",
+                    "path": "<Keyboard>/downArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CrouchMother",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -41,6 +41,14 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""CrouchMother"",
+                    ""type"": ""Button"",
+                    ""id"": ""774ae0a5-9814-4920-8a2b-b056235ac17c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
@@ -164,6 +172,17 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""action"": ""ActionMother"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ecc33e46-cedf-4506-a17e-fafa0decdd81"",
+                    ""path"": ""<Keyboard>/downArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CrouchMother"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -175,6 +194,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         m_map0_moveChild = m_map0.FindAction("moveChild", throwIfNotFound: true);
         m_map0_MoveMother = m_map0.FindAction("MoveMother", throwIfNotFound: true);
         m_map0_ActionMother = m_map0.FindAction("ActionMother", throwIfNotFound: true);
+        m_map0_CrouchMother = m_map0.FindAction("CrouchMother", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -227,6 +247,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_map0_moveChild;
     private readonly InputAction m_map0_MoveMother;
     private readonly InputAction m_map0_ActionMother;
+    private readonly InputAction m_map0_CrouchMother;
     public struct Map0Actions
     {
         private @PlyerInputActions m_Wrapper;
@@ -234,6 +255,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         public InputAction @moveChild => m_Wrapper.m_map0_moveChild;
         public InputAction @MoveMother => m_Wrapper.m_map0_MoveMother;
         public InputAction @ActionMother => m_Wrapper.m_map0_ActionMother;
+        public InputAction @CrouchMother => m_Wrapper.m_map0_CrouchMother;
         public InputActionMap Get() { return m_Wrapper.m_map0; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -252,6 +274,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @ActionMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
                 @ActionMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
                 @ActionMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionMother;
+                @CrouchMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
+                @CrouchMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
+                @CrouchMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
             }
             m_Wrapper.m_Map0ActionsCallbackInterface = instance;
             if (instance != null)
@@ -265,6 +290,9 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @ActionMother.started += instance.OnActionMother;
                 @ActionMother.performed += instance.OnActionMother;
                 @ActionMother.canceled += instance.OnActionMother;
+                @CrouchMother.started += instance.OnCrouchMother;
+                @CrouchMother.performed += instance.OnCrouchMother;
+                @CrouchMother.canceled += instance.OnCrouchMother;
             }
         }
     }
@@ -274,5 +302,6 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         void OnMoveChild(InputAction.CallbackContext context);
         void OnMoveMother(InputAction.CallbackContext context);
         void OnActionMother(InputAction.CallbackContext context);
+        void OnCrouchMother(InputAction.CallbackContext context);
     }
 }
