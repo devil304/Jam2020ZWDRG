@@ -22,7 +22,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""name"": ""moveChild"",
                     ""type"": ""Value"",
                     ""id"": ""059ca558-f79e-4538-b00e-b52e5170c24c"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
@@ -49,13 +49,29 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """"
+                },
+                {
+                    ""name"": ""ActionChild"",
+                    ""type"": ""Button"",
+                    ""id"": ""f9b2be76-89b3-49f2-aa88-0cee58f35bc0"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""JumpChild"",
+                    ""type"": ""Button"",
+                    ""id"": ""d4244de2-0534-4a5b-bac6-3dd32b9a5e09"",
+                    ""expectedControlType"": ""Button"",
+                    ""processors"": """",
+                    ""interactions"": """"
                 }
             ],
             ""bindings"": [
                 {
-                    ""name"": ""WSAD"",
+                    ""name"": ""AD"",
                     ""id"": ""bc8ca778-f391-4aab-aee3-dabecc29095c"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -64,30 +80,8 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
+                    ""name"": ""Negative"",
                     ""id"": ""ab375159-094d-40f6-ab77-a3b0fb2ec5d2"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""moveChild"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""dd494448-4d2d-423b-96c9-7f97fa222263"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""moveChild"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""558496c9-b420-43a0-b96c-629f49c684bb"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -97,8 +91,8 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
-                    ""id"": ""c2964682-32e7-492a-9f08-6b931f41398a"",
+                    ""name"": ""Positive"",
+                    ""id"": ""dd494448-4d2d-423b-96c9-7f97fa222263"",
                     ""path"": ""<Keyboard>/d"",
                     ""interactions"": """",
                     ""processors"": """",
@@ -183,6 +177,28 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                     ""action"": ""CrouchMother"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b517f4c5-1e40-4c4f-aa80-002378f8e0b0"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ActionChild"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6e2343ef-cc2f-4ab0-8a5e-02fa7beeed26"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""JumpChild"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -195,6 +211,8 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         m_map0_MoveMother = m_map0.FindAction("MoveMother", throwIfNotFound: true);
         m_map0_ActionMother = m_map0.FindAction("ActionMother", throwIfNotFound: true);
         m_map0_CrouchMother = m_map0.FindAction("CrouchMother", throwIfNotFound: true);
+        m_map0_ActionChild = m_map0.FindAction("ActionChild", throwIfNotFound: true);
+        m_map0_JumpChild = m_map0.FindAction("JumpChild", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -248,6 +266,8 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
     private readonly InputAction m_map0_MoveMother;
     private readonly InputAction m_map0_ActionMother;
     private readonly InputAction m_map0_CrouchMother;
+    private readonly InputAction m_map0_ActionChild;
+    private readonly InputAction m_map0_JumpChild;
     public struct Map0Actions
     {
         private @PlyerInputActions m_Wrapper;
@@ -256,6 +276,8 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         public InputAction @MoveMother => m_Wrapper.m_map0_MoveMother;
         public InputAction @ActionMother => m_Wrapper.m_map0_ActionMother;
         public InputAction @CrouchMother => m_Wrapper.m_map0_CrouchMother;
+        public InputAction @ActionChild => m_Wrapper.m_map0_ActionChild;
+        public InputAction @JumpChild => m_Wrapper.m_map0_JumpChild;
         public InputActionMap Get() { return m_Wrapper.m_map0; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -277,6 +299,12 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @CrouchMother.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
                 @CrouchMother.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
                 @CrouchMother.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnCrouchMother;
+                @ActionChild.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionChild;
+                @ActionChild.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionChild;
+                @ActionChild.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnActionChild;
+                @JumpChild.started -= m_Wrapper.m_Map0ActionsCallbackInterface.OnJumpChild;
+                @JumpChild.performed -= m_Wrapper.m_Map0ActionsCallbackInterface.OnJumpChild;
+                @JumpChild.canceled -= m_Wrapper.m_Map0ActionsCallbackInterface.OnJumpChild;
             }
             m_Wrapper.m_Map0ActionsCallbackInterface = instance;
             if (instance != null)
@@ -293,6 +321,12 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
                 @CrouchMother.started += instance.OnCrouchMother;
                 @CrouchMother.performed += instance.OnCrouchMother;
                 @CrouchMother.canceled += instance.OnCrouchMother;
+                @ActionChild.started += instance.OnActionChild;
+                @ActionChild.performed += instance.OnActionChild;
+                @ActionChild.canceled += instance.OnActionChild;
+                @JumpChild.started += instance.OnJumpChild;
+                @JumpChild.performed += instance.OnJumpChild;
+                @JumpChild.canceled += instance.OnJumpChild;
             }
         }
     }
@@ -303,5 +337,7 @@ public class @PlyerInputActions : IInputActionCollection, IDisposable
         void OnMoveMother(InputAction.CallbackContext context);
         void OnActionMother(InputAction.CallbackContext context);
         void OnCrouchMother(InputAction.CallbackContext context);
+        void OnActionChild(InputAction.CallbackContext context);
+        void OnJumpChild(InputAction.CallbackContext context);
     }
 }

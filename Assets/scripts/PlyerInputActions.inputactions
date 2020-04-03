@@ -9,7 +9,7 @@
                     "name": "moveChild",
                     "type": "Value",
                     "id": "059ca558-f79e-4538-b00e-b52e5170c24c",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": ""
                 },
@@ -36,13 +36,29 @@
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": ""
+                },
+                {
+                    "name": "ActionChild",
+                    "type": "Button",
+                    "id": "f9b2be76-89b3-49f2-aa88-0cee58f35bc0",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "JumpChild",
+                    "type": "Button",
+                    "id": "d4244de2-0534-4a5b-bac6-3dd32b9a5e09",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
                 }
             ],
             "bindings": [
                 {
-                    "name": "WSAD",
+                    "name": "AD",
                     "id": "bc8ca778-f391-4aab-aee3-dabecc29095c",
-                    "path": "2DVector",
+                    "path": "1DAxis",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -51,30 +67,8 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "up",
+                    "name": "Negative",
                     "id": "ab375159-094d-40f6-ab77-a3b0fb2ec5d2",
-                    "path": "<Keyboard>/w",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "moveChild",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "down",
-                    "id": "dd494448-4d2d-423b-96c9-7f97fa222263",
-                    "path": "<Keyboard>/s",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "moveChild",
-                    "isComposite": false,
-                    "isPartOfComposite": true
-                },
-                {
-                    "name": "left",
-                    "id": "558496c9-b420-43a0-b96c-629f49c684bb",
                     "path": "<Keyboard>/a",
                     "interactions": "",
                     "processors": "",
@@ -84,8 +78,8 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "right",
-                    "id": "c2964682-32e7-492a-9f08-6b931f41398a",
+                    "name": "Positive",
+                    "id": "dd494448-4d2d-423b-96c9-7f97fa222263",
                     "path": "<Keyboard>/d",
                     "interactions": "",
                     "processors": "",
@@ -168,6 +162,27 @@
                     "processors": "",
                     "groups": "",
                     "action": "CrouchMother",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "id": "b517f4c5-1e40-4c4f-aa80-002378f8e0b0",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ActionChild",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "6e2343ef-cc2f-4ab0-8a5e-02fa7beeed26",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "JumpChild",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
