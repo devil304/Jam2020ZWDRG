@@ -1,0 +1,656 @@
+fileFormatVersion: 2
+guid: fa8c8feb9844c5148840966ffb48da61
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5260168216567033816
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_0
+  - first:
+      213: -8418121208227268811
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_1
+  - first:
+      213: -6702715382973106756
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_2
+  - first:
+      213: 2776713722267376413
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_3
+  - first:
+      213: 8246370885313124006
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_4
+  - first:
+      213: 4379901496448202360
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_5
+  - first:
+      213: -9116561692410857128
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_6
+  - first:
+      213: -3051867639160600135
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_7
+  - first:
+      213: 3306354517916647067
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_8
+  - first:
+      213: 8559727628140647641
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_9
+  - first:
+      213: -8199358992544276400
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_10
+  - first:
+      213: 5167645592245428706
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_11
+  - first:
+      213: -1066669421536163059
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_12
+  - first:
+      213: -3446738509511351321
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_13
+  - first:
+      213: -8260694022928310505
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_14
+  - first:
+      213: -501714937388845099
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_15
+  - first:
+      213: 546921000599206061
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_16
+  - first:
+      213: 2338124815041389770
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_17
+  - first:
+      213: 5474280436562008818
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_0
+  - first:
+      213: -390267263109686412
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_1
+  - first:
+      213: -4790287885717455151
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_2
+  - first:
+      213: -6247519758923680383
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_3
+  - first:
+      213: -2253384436439863241
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_4
+  - first:
+      213: 2882798669456103714
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_5
+  - first:
+      213: 476462049467937265
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_6
+  - first:
+      213: -9217494204842854149
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_7
+  - first:
+      213: 394532043442822033
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_8
+  - first:
+      213: 3918320174897857052
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_9
+  - first:
+      213: 8403579356294725207
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_10
+  - first:
+      213: -4372252952600115505
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_11
+  - first:
+      213: 2078781949291385908
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_12
+  - first:
+      213: 3973786525570518637
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_13
+  - first:
+      213: -361989761205758307
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_14
+  - first:
+      213: -8234303670464642731
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_15
+  - first:
+      213: 373484599698288472
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_16
+  - first:
+      213: -8634322636471677293
+    second: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+      do przodu i to jest jako jeden sprite_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa16269d0d88fb40800000000000000
+      internalID: 5474280436562008818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_1
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b12eeedfd759af0800000000000000
+      internalID: -390267263109686412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_2
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de34f74c8a758db0800000000000000
+      internalID: -4790287885717455151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_3
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185be1a41e95c49a0800000000000000
+      internalID: -6247519758923680383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_4
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730bb934bce5ab0e0800000000000000
+      internalID: -2253384436439863241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_5
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 2350
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22956ebbd12c10820800000000000000
+      internalID: 2882798669456103714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1bd77a5bbbc9600800000000000000
+      internalID: 476462049467937265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf8be196bd1e41080800000000000000
+      internalID: -9217494204842854149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_8
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b1bed9dc8a97500800000000000000
+      internalID: 394532043442822033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_9
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c12880d507ba06630800000000000000
+      internalID: 3918320174897857052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_10
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75eb0c586e28f9470800000000000000
+      internalID: 8403579356294725207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_11
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc60e14da13a253c0800000000000000
+      internalID: -4372252952600115505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d1054b2159dc10800000000000000
+      internalID: 2078781949291385908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_13
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e4ddd7ac9b52730800000000000000
+      internalID: 3973786525570518637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_14
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d969007ea34f9faf0800000000000000
+      internalID: -361989761205758307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_15
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 551824d5070e9bd80800000000000000
+      internalID: -8234303670464642731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_16
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85f681eb342ee2500800000000000000
+      internalID: 373484599698288472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite pajeczyny syn trzeba raz sprite od przodu do tylu a raz od tylu
+        do przodu i to jest jako jeden sprite_17
+      rect:
+        serializedVersion: 2
+        x: 5830
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ecdf80f49bc2880800000000000000
+      internalID: -8634322636471677293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

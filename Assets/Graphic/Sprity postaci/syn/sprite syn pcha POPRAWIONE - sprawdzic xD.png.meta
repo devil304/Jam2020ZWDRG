@@ -1,31 +1,61 @@
 fileFormatVersion: 2
-guid: c7629a2a016fd7b4e8cfa4f6f9626514
+guid: cd69b637ab12d13439b08da06cc55ea6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2917236283428226819
-    second: hustawka anim2_0
+      213: 1403337829337935377
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_0
   - first:
-      213: -5019935119321555094
-    second: hustawka anim2_1
+      213: 3425969327556102848
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_1
   - first:
-      213: 3108163809284891519
-    second: hustawka anim2_2
+      213: 7468091777419874000
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_2
   - first:
-      213: -465299693888695327
-    second: hustawka anim2_3
+      213: 8397323339499127976
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_3
   - first:
-      213: -6177523902669100583
-    second: hustawka anim2_4
+      213: 4739183733790264264
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_4
   - first:
-      213: -337030643699720576
-    second: hustawka anim2_5
+      213: -2083395027078975046
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_5
   - first:
-      213: 4172920255443409522
-    second: hustawka anim2_6
+      213: -2303579369035656630
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_6
   - first:
-      213: 2443386265048527871
-    second: hustawka anim2_7
+      213: -6551711617028247468
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_7
+  - first:
+      213: -2179337449377882437
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_8
+  - first:
+      213: 3616296540265603803
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_0
+  - first:
+      213: 351650940433867686
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_1
+  - first:
+      213: 4700351007296914541
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_2
+  - first:
+      213: -8054822448639268035
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_3
+  - first:
+      213: -8159492240535518248
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_4
+  - first:
+      213: 7191541678699558938
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_5
+  - first:
+      213: 6304459939465553472
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_6
+  - first:
+      213: 2103433978367025955
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_7
+  - first:
+      213: -4536449554558383435
+    second: sprite syn pcha POPRAWIONE - sprawdzic xD_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,169 +153,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hustawka anim2_0
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2035.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df831607e05e387d0800000000000000
-      internalID: -2917236283428226819
+      spriteID: bd2610d1b8aaf2230800000000000000
+      internalID: 3616296540265603803
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_1
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_1
       rect:
         serializedVersion: 2
-        x: 1436
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1413
+        y: 2035.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6f94511b9b955ab0800000000000000
-      internalID: -5019935119321555094
+      spriteID: 6a32e7dcaa051e400800000000000000
+      internalID: 351650940433867686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_2
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_2
       rect:
         serializedVersion: 2
-        x: 2872
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2826
+        y: 2035.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f73a62c448a622b20800000000000000
-      internalID: 3108163809284891519
+      spriteID: d64059d66500b3140800000000000000
+      internalID: 4700351007296914541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_3
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_3
       rect:
         serializedVersion: 2
-        x: 4308
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1018.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e39aa7c46cea89f0800000000000000
-      internalID: -465299693888695327
+      spriteID: d3ba304c8a5873090800000000000000
+      internalID: -8054822448639268035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_4
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_4
       rect:
         serializedVersion: 2
-        x: 5744
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1413
+        y: 1018.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d96ced8db6054aa0800000000000000
-      internalID: -6177523902669100583
+      spriteID: 8d3035fb909a3ce80800000000000000
+      internalID: -8159492240535518248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_5
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_5
       rect:
         serializedVersion: 2
-        x: 7180
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2826
+        y: 1018.3333
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e5bdb4a60a25bf0800000000000000
-      internalID: -337030643699720576
+      spriteID: a18bd4aed0d7dc360800000000000000
+      internalID: 7191541678699558938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_6
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_6
       rect:
         serializedVersion: 2
-        x: 8616
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 1.333313
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a9cbdfcd039e930800000000000000
-      internalID: 4172920255443409522
+      spriteID: 046668899e0fd7750800000000000000
+      internalID: 6304459939465553472
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_7
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_7
       rect:
         serializedVersion: 2
-        x: 10052
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1413
+        y: 1.333313
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff33949ccd6a8e120800000000000000
-      internalID: 2443386265048527871
+      spriteID: 323ad011f06e03d10800000000000000
+      internalID: 2103433978367025955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_8
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 1.333313
+        width: 1413.3334
+        height: 1017.6667
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba811f4a2b4b01c0800000000000000
+      internalID: -4536449554558383435
       vertices: []
       indices: 
       edges: []
