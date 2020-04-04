@@ -37,12 +37,13 @@ public class MotherMovement : MonoBehaviour {
             isCrouching = true;
             myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y * 2);
             myBC.size = new Vector2(myBC.size.x, myBC.size.y / 2);
+            myAnimator.SetBool("IsCrouching", isCrouching);
 
         } else if (cc.ReadValue<float>() == 0.0f && isCrouching) {
             isCrouching = false;
             myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y / 2);
             myBC.size = new Vector2(myBC.size.x, myBC.size.y * 2);
-
+            myAnimator.SetBool("IsCrouching", isCrouching);
         }
     }
 

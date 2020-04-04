@@ -1,7 +1,82 @@
 fileFormatVersion: 2
 guid: 9bce3f8d18ccd2b41af59459597ada8b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1199738040935304851
+    second: sprite mama czolganie_0
+  - first:
+      213: 1985389179647156818
+    second: sprite mama czolganie_1
+  - first:
+      213: -7776880465274509169
+    second: sprite mama czolganie_2
+  - first:
+      213: 2942777165458822011
+    second: sprite mama czolganie_3
+  - first:
+      213: -5457951253825944425
+    second: sprite mama czolganie_4
+  - first:
+      213: -264418231941986099
+    second: sprite mama czolganie_5
+  - first:
+      213: 9159289228351477106
+    second: sprite mama czolganie_6
+  - first:
+      213: -2656612695237618861
+    second: sprite mama czolganie_7
+  - first:
+      213: 5664220594628915360
+    second: sprite mama czolganie_8
+  - first:
+      213: -1604347606458933138
+    second: sprite mama czolganie_9
+  - first:
+      213: 5023264415849512899
+    second: sprite mama czolganie_10
+  - first:
+      213: -1521319987034494934
+    second: sprite mama czolganie_11
+  - first:
+      213: -1400384479505993938
+    second: sprite mama czolganie_12
+  - first:
+      213: -649655077129045509
+    second: sprite mama czolganie_13
+  - first:
+      213: -2755002285698293830
+    second: sprite mama czolganie_14
+  - first:
+      213: -1080203729749439450
+    second: sprite mama czolganie_15
+  - first:
+      213: 5885723070161368969
+    second: sprite mama czolganie_16
+  - first:
+      213: -2779641047571181354
+    second: sprite mama czolganie_17
+  - first:
+      213: 5542389505700651920
+    second: sprite mama czolganie_18
+  - first:
+      213: 9036174998927211409
+    second: sprite mama czolganie_19
+  - first:
+      213: 6985569373091524689
+    second: sprite mama czolganie_20
+  - first:
+      213: 4354013270030005750
+    second: sprite mama czolganie_21
+  - first:
+      213: 4926288696675352264
+    second: sprite mama czolganie_22
+  - first:
+      213: -5604910514049101796
+    second: sprite mama czolganie_23
+  - first:
+      213: 6962329519396915624
+    second: sprite mama czolganie_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +115,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +146,495 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite mama czolganie_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d613786bb9ca95fe0800000000000000
+      internalID: -1199738040935304851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_1
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252e5c990f48d8b10800000000000000
+      internalID: 1985389179647156818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_2
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8863a6ab68f21490800000000000000
+      internalID: -7776880465274509169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_3
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b73dd409d38d6d820800000000000000
+      internalID: 2942777165458822011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_4
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7948e4a80467144b0800000000000000
+      internalID: -5457951253825944425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_5
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc806fcd409945cf0800000000000000
+      internalID: -264418231941986099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_6
+      rect:
+        serializedVersion: 2
+        x: 5328
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27593f276055c1f70800000000000000
+      internalID: 9159289228351477106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_7
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 353919a34d0d12bd0800000000000000
+      internalID: -2656612695237618861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_8
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 1842.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0fe48de9a5b9e40800000000000000
+      internalID: 5664220594628915360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6064c42a563cb9e0800000000000000
+      internalID: -1604347606458933138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_10
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cff19f2f5836b540800000000000000
+      internalID: 5023264415849512899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_11
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a286b17388f23eae0800000000000000
+      internalID: -1521319987034494934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_12
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2f23164cb5d09ce0800000000000000
+      internalID: -1400384479505993938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_13
+      rect:
+        serializedVersion: 2
+        x: 3552
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf9b13d3626fbf6f0800000000000000
+      internalID: -649655077129045509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_14
+      rect:
+        serializedVersion: 2
+        x: 4440
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abf509d840444c9d0800000000000000
+      internalID: -2755002285698293830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_15
+      rect:
+        serializedVersion: 2
+        x: 5328
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62c8b335e685201f0800000000000000
+      internalID: -1080203729749439450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_16
+      rect:
+        serializedVersion: 2
+        x: 6216
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9873a4bc2f94ea150800000000000000
+      internalID: 5885723070161368969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_17
+      rect:
+        serializedVersion: 2
+        x: 7104
+        y: 921.6667
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0dc64c13bbc69d0800000000000000
+      internalID: -2779641047571181354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.666687
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093e32ef3e58aec40800000000000000
+      internalID: 5542389505700651920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_19
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 0.666687
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19b725b2941f66d70800000000000000
+      internalID: 9036174998927211409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_20
+      rect:
+        serializedVersion: 2
+        x: 1776
+        y: 0.666687
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 150f7fc655ab1f060800000000000000
+      internalID: 6985569373091524689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama czolganie_21
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 0.666687
+        width: 888.8889
+        height: 921.3333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5b97320009c6c30800000000000000
+      internalID: 4354013270030005750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
