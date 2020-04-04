@@ -5,7 +5,7 @@ using static UnityEngine.InputSystem.InputAction;
 
 public class MotherMovement : MonoBehaviour { 
 
-    [SerializeField] float speed = 3;
+    [SerializeField] float speed = 3, fadeSpeed = 1.5f;
     Rigidbody2D myRB2D;
     SpriteRenderer mySR;
     BoxCollider2D myBC;
@@ -53,7 +53,7 @@ public class MotherMovement : MonoBehaviour {
     public void MotherAction(CallbackContext cc) {
         if (cc.ReadValue<float>() == 1.0f && !actionButtonClicked) {
             actionButtonClicked = true;
-            myIO?.OnPlayerAction();
+            myIO?.OnPlayerAction(Actor.MOTHER);
         } else if (cc.ReadValue<float>() == 0.0f && actionButtonClicked) {
             actionButtonClicked = false;
         }
@@ -71,5 +71,22 @@ public class MotherMovement : MonoBehaviour {
     }
     public void ClearInteractionObject() {
         myIO = null;
+    }
+
+    IEnumerator FadeTo (float aValue, float aTime) {
+        float alpha = mySR.color.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime) {
+            Color newColor = new Color (1, 1, 1, Mathf.Lerp (alpha, aValue, t));
+            mySR.color = newColor;
+            yield return null;
+        }
+    }
+
+    public void fadeOut () {
+        StartCoroutine (FadeTo (0, fadeSpeed));
+    }
+
+    public void fadeIn () {
+        StartCoroutine (FadeTo (1, fadeSpeed));
     }
 }

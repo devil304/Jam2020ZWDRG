@@ -6,10 +6,11 @@ using static UnityEngine.InputSystem.InputAction;
 
 [RequireComponent (typeof (Rigidbody2D))]
 public class SonMovement : MonoBehaviour {
-    [SerializeField]bool FadeOutIn = false;
+    [SerializeField] bool FadeOutIn = false;
     Animator myAnim;
     //[SerializeField] Volume v;
-    [SerializeField] float speed = 10, fadeSpeed = 1.5f;
+    [SerializeField] float speed = 10;
+    public float fadeSpeed = 1.5f;
     Rigidbody2D myRB2D;
     SpriteRenderer mySR;
     BoxCollider2D myBX;
@@ -65,12 +66,14 @@ public class SonMovement : MonoBehaviour {
     }
 
     IEnumerator FadeTo (float aValue, float aTime) {
+        FadeOutIn = true;
         float alpha = mySR.color.a;
         for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime) {
             Color newColor = new Color (1, 1, 1, Mathf.Lerp (alpha, aValue, t));
             mySR.color = newColor;
             yield return null;
         }
+        FadeOutIn = false;
     }
 
     /*private void OnCollisionEnter2D (Collision2D collision) {
@@ -86,16 +89,16 @@ public class SonMovement : MonoBehaviour {
     }*/
 
     public void Action (CallbackContext cc) {
-        //if (cc.performed && myIO)
-        //myIO.Action();
+        if (cc.performed && myIO)
+            myIO.OnPlayerAction (Actor.SON);
     }
 
-    public void fadeOut(){
-        StartCoroutine(FadeTo(0,fadeSpeed));
+    public void fadeOut () {
+        StartCoroutine (FadeTo (0, fadeSpeed));
     }
 
-    public void fadeIn(){
-        StartCoroutine(FadeTo(1,fadeSpeed));
+    public void fadeIn () {
+        StartCoroutine (FadeTo (1, fadeSpeed));
     }
 
     public void SetInteractionObject (InteractionObject io) {

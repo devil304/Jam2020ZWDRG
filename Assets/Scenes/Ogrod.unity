@@ -319,9 +319,44 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
+      propertyPath: dialogue.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
       propertyPath: dialogueBox
       value: 
       objectReference: {fileID: 582166540}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[1].nameId
+      value: test2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[1].text
+      value: awdeawt54f6tgg4g5e56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[1].time
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[2].nameId
+      value: test3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[2].text
+      value: g7ur6h7r6ugs54tfs5t4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[2].time
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d, type: 3}
 --- !u!1 &582166540 stripped
@@ -480,6 +515,98 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &692515192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 692515195}
+  - component: {fileID: 692515194}
+  - component: {fileID: 692515193}
+  m_Layer: 0
+  m_Name: door
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &692515193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692515192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b512000f9d5b224ebb51e96fc3449da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogSequenceSon:
+  - test
+  - test2
+  - test3
+  dialogSequenceMother: []
+  SonEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2032616375}
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: PI
+          m_BoolArgument: 0
+        m_CallState: 2
+  MotherEvent:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!61 &692515194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692515192}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.03753662, y: -0.37535954}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 4.2280807, y: 7.756445}
+  m_EdgeRadius: 0
+--- !u!4 &692515195
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692515192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.09, y: -0.67, z: -27.02655}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &740074547
 PrefabInstance:
   m_ObjectHideFlags: 0

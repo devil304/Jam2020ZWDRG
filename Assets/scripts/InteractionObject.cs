@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum Actor {
     SON,
@@ -8,34 +10,67 @@ public enum Actor {
 }
 
 public class InteractionObject : MonoBehaviour {
+    [SerializeField] string[] dialogSequenceSon;
+    [SerializeField] string[] dialogSequenceMother;
+    [SerializeField] UnityEvent SonEvent;
+    [SerializeField] UnityEvent MotherEvent;
+    string[] triggeredDialog;
     DialogueSystemFromHell dsfh;
-    void Start() {
-        dsfh = FindObjectOfType<DialogueSystemFromHell>();
+    void Start () {
+        dsfh = FindObjectOfType<DialogueSystemFromHell> ();
     }
 
-    public void OnTriggerEnter2D(Collider2D col) {
-        if(col.gameObject.tag == "Player") {
-            transform.GetChild(0)?.gameObject?.SetActive(true);
-            col.gameObject.SendMessage("SetInteractionObject", this);
-        }
-    }
-    public void OnTriggerExit2D(Collider2D col) {
+    public void OnTriggerEnter2D (Collider2D col) {
         if (col.gameObject.tag == "Player") {
-            transform.GetChild(0)?.gameObject?.SetActive(false);
-            col.gameObject.SendMessage("ClearInteractionObject");
+            if(transform.childCount > 0)
+            transform.GetChild (0).gameObject.SetActive (true);
+            col.gameObject.SendMessage ("SetInteractionObject", this);
+        }
+    }
+    public void OnTriggerExit2D (Collider2D col) {
+        if (col.gameObject.tag == "Player") {
+            if(transform.childCount > 0)
+            transform.GetChild (0).gameObject.SetActive (false);
+            col.gameObject.SendMessage ("ClearInteractionObject");
         }
     }
 
-    void DialogAction() {
+    int i = 0;
+    void dialog () {
 
-        dsfh.startDialogue("nazwaDialogu");
-        dsfh.DialogueEndedEvent += () => {
-            //wykonaj po zakończeniu dialogu, np: odpal kolejny czy coś
-        };
+        dsfh.startDialogue (triggeredDialog[i]);
+        i++;
+        dsfh.DialogueEndedEvent += nexDialog;
     }
 
-    public void OnPlayerAction() {
-        Debug.Log("JEBAĆ");
-        Destroy(this.gameObject);
+    private void nexDialog () {
+        if (i < triggeredDialog.Length) {
+            dsfh.startDialogue (triggeredDialog[i]);
+            i++;
+        } else {
+            i = 0;
+            dsfh.DialogueEndedEvent -= nexDialog;
+        }
+    }
+
+    public void OnPlayerAction (Actor type) {
+        switch (type) {
+            case Actor.SON:
+                if(dialogSequenceSon.Length>0){
+                    triggeredDialog = dialogSequenceSon;
+                    i=0;
+                    dialog();
+                }
+                SonEvent.Invoke();
+                break;
+            case Actor.MOTHER:
+                if(dialogSequenceMother.Length>0){
+                    triggeredDialog = dialogSequenceMother;
+                    i=0;
+                    dialog();
+                }
+                MotherEvent.Invoke();
+                break;
+        }
     }
 }

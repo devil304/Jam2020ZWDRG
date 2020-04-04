@@ -19,10 +19,19 @@ public class gameController : MonoBehaviour
         sm = FindObjectOfType<SonMovement>();
         mm = FindObjectOfType<MotherMovement>();
         sm?.fadeIn();
+        mm?.fadeIn();
     }
 
     public void LoadScene(string name){
+        StartCoroutine(LSA(name));
+    }
+
+    IEnumerator LSA(string name){
         sm?.fadeOut();
-        SceneManager.LoadScene(name);
+        mm?.fadeOut();
+        AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(name);
+        asyncOperation.allowSceneActivation = false;
+        yield return new WaitForSeconds(sm?sm.fadeSpeed:0);
+        asyncOperation.allowSceneActivation = true;
     }
 }

@@ -28,7 +28,7 @@ public class DialogueSystemFromHell : MonoBehaviour {
         foreach (speech s in dialogue) {
             dialogueBase.Add (s.nameId, s);
         }
-        DontDestroyOnLoad (dialogueBox);
+        DontDestroyOnLoad (dialogueBox.transform.parent.gameObject);
     }
     // Start is called before the first frame update
     public void startDialogue (string id) {
