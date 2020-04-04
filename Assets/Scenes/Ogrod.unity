@@ -922,6 +922,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Syn
       objectReference: {fileID: 0}
+    - target: {fileID: 929497599169429004, guid: 54a6876fddd9baa49961c2c61979e6f0,
+        type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 929497599169429005, guid: 54a6876fddd9baa49961c2c61979e6f0,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -976,6 +981,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 929497599169429006, guid: 54a6876fddd9baa49961c2c61979e6f0,
+        type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54a6876fddd9baa49961c2c61979e6f0, type: 3}
@@ -1286,13 +1296,9 @@ MonoBehaviour:
     m_ActionId: 774ae0a5-9814-4920-8a2b-b056235ac17c
     m_ActionName: map0/CrouchMother[/Keyboard/downArrow]
   - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: f9b2be76-89b3-49f2-aa88-0cee58f35bc0
-    m_ActionName: map0/ActionChild[/Keyboard/space]
-  - m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 804167078}
-        m_MethodName: Jump
+        m_MethodName: Action
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1302,6 +1308,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+    m_ActionId: f9b2be76-89b3-49f2-aa88-0cee58f35bc0
+    m_ActionName: map0/ActionChild[/Keyboard/space]
+  - m_PersistentCalls:
+      m_Calls: []
     m_ActionId: d4244de2-0534-4a5b-bac6-3dd32b9a5e09
     m_ActionName: map0/JumpChild[/Keyboard/w]
   m_NeverAutoSwitchControlSchemes: 0
@@ -1309,3 +1319,15 @@ MonoBehaviour:
   m_DefaultActionMap: map0
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2032616375
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032616373}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a84c4e76fef645043843db62bf5b34a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
