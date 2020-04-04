@@ -2,7 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum Actor {
+    SON,
+    MOTHER
+}
+
 public class InteractionObject : MonoBehaviour {
+    DialogueSystemFromHell dsfh;
+    void Start() {
+        dsfh = FindObjectOfType<DialogueSystemFromHell>();
+    }
 
     public void OnTriggerEnter2D(Collider2D col) {
         if(col.gameObject.tag == "Player") {
@@ -15,6 +24,14 @@ public class InteractionObject : MonoBehaviour {
             transform.GetChild(0)?.gameObject?.SetActive(false);
             col.gameObject.SendMessage("ClearInteractionObject");
         }
+    }
+
+    void DialogAction() {
+
+        dsfh.startDialogue("nazwaDialogu");
+        dsfh.DialogueEndedEvent += () => {
+            //wykonaj po zakończeniu dialogu, np: odpal kolejny czy coś
+        };
     }
 
     public void OnPlayerAction() {
