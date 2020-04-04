@@ -11,7 +11,9 @@ public class MotherMovement : MonoBehaviour {
     BoxCollider2D myBC;
     Vector2 InputValue;
     public bool isCrouching = false;
+    private bool actionButtonClicked = false;
     Animator myAnimator;
+    public InteractionObject myIO;
     // Start is called before the first frame update
     void Start() {
         myRB2D = GetComponent<Rigidbody2D>();
@@ -47,10 +49,26 @@ public class MotherMovement : MonoBehaviour {
         }
     }
 
+    public void MotherAction(CallbackContext cc) {
+        if (cc.ReadValue<float>() == 1.0f && !actionButtonClicked) {
+            actionButtonClicked = true;
+            myIO?.OnPlayerAction();
+        } else if (cc.ReadValue<float>() == 0.0f && actionButtonClicked) {
+            actionButtonClicked = false;
+        }
+    }
+
     // Update is called once per frame
     void FixedUpdate() {
         if(InputValue != Vector2.zero) {
             myRB2D.MovePosition((Vector2)transform.position + InputValue * Time.fixedDeltaTime);
         }
+    }
+    
+    public void SetInteractionObject(InteractionObject io) {
+        myIO = io;
+    }
+    public void ClearInteractionObject() {
+        myIO = null;
     }
 }
