@@ -157,9 +157,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2035.3333
-        width: 1413.3334
-        height: 1017.6667
+        y: 2350
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,10 +177,10 @@ TextureImporter:
       name: sprite syn pcha POPRAWIONE - sprawdzic xD_1
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 2035.3333
-        width: 1413.3334
-        height: 1017.6667
+        x: 1166
+        y: 2350
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,34 +195,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn pcha POPRAWIONE - sprawdzic xD_2
-      rect:
-        serializedVersion: 2
-        x: 2826
-        y: 2035.3333
-        width: 1413.3334
-        height: 1017.6667
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d64059d66500b3140800000000000000
-      internalID: 4700351007296914541
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sprite syn pcha POPRAWIONE - sprawdzic xD_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1018.3333
-        width: 1413.3334
-        height: 1017.6667
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +219,10 @@ TextureImporter:
       name: sprite syn pcha POPRAWIONE - sprawdzic xD_4
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 1018.3333
-        width: 1413.3334
-        height: 1017.6667
+        x: 1166
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,34 +237,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn pcha POPRAWIONE - sprawdzic xD_5
-      rect:
-        serializedVersion: 2
-        x: 2826
-        y: 1018.3333
-        width: 1413.3334
-        height: 1017.6667
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a18bd4aed0d7dc360800000000000000
-      internalID: 7191541678699558938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sprite syn pcha POPRAWIONE - sprawdzic xD_6
       rect:
         serializedVersion: 2
         x: 0
-        y: 1.333313
-        width: 1413.3334
-        height: 1017.6667
+        y: 0
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +261,10 @@ TextureImporter:
       name: sprite syn pcha POPRAWIONE - sprawdzic xD_7
       rect:
         serializedVersion: 2
-        x: 1413
-        y: 1.333313
-        width: 1413.3334
-        height: 1017.6667
+        x: 1166
+        y: 0
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,13 +279,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn pcha POPRAWIONE - sprawdzic xD_8
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_2
       rect:
         serializedVersion: 2
-        x: 2826
-        y: 1.333313
-        width: 1413.3334
-        height: 1017.6667
+        x: 2332
+        y: 2350
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -335,8 +293,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ba811f4a2b4b01c0800000000000000
-      internalID: -4536449554558383435
+      spriteID: 0de802767edf3a760800000000000000
+      internalID: 7468091777419874000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_5
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 1175
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1742cd24b4613e0800000000000000
+      internalID: -2083395027078975046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn pcha POPRAWIONE - sprawdzic xD_8
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbe102ce22071c1e0800000000000000
+      internalID: -2179337449377882437
       vertices: []
       indices: 
       edges: []
