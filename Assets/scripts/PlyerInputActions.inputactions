@@ -41,9 +41,9 @@
                     "name": "ActionChild",
                     "type": "Button",
                     "id": "f9b2be76-89b3-49f2-aa88-0cee58f35bc0",
-                    "expectedControlType": "",
+                    "expectedControlType": "Button",
                     "processors": "",
-                    "interactions": ""
+                    "interactions": "Press(behavior=1)"
                 },
                 {
                     "name": "JumpChild",

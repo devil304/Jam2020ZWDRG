@@ -5,13 +5,15 @@ using static UnityEngine.InputSystem.InputAction;
 
 public class MotherMovement : MonoBehaviour { 
 
-    [SerializeField] float speed = 3;
+    [SerializeField] float speed = 3, fadeSpeed = 1.5f;
     Rigidbody2D myRB2D;
     SpriteRenderer mySR;
     BoxCollider2D myBC;
     Vector2 InputValue;
     public bool isCrouching = false;
+    private bool actionButtonClicked = false;
     Animator myAnimator;
+    public InteractionObject myIO;
     // Start is called before the first frame update
     void Start() {
         myRB2D = GetComponent<Rigidbody2D>();
@@ -33,17 +35,27 @@ public class MotherMovement : MonoBehaviour {
     }
 
     public void Crouch(CallbackContext cc) {
+        int boxColiderMultiplyer = 3;
         if(cc.ReadValue<float>() == 1.0f && !isCrouching) {
             isCrouching = true;
-            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y * 2);
-            myBC.size = new Vector2(myBC.size.x, myBC.size.y / 2);
+            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y / boxColiderMultiplyer);
+            myBC.size = new Vector2(myBC.size.x, myBC.size.y / boxColiderMultiplyer);
             myAnimator.SetBool("IsCrouching", isCrouching);
 
         } else if (cc.ReadValue<float>() == 0.0f && isCrouching) {
             isCrouching = false;
-            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y / 2);
-            myBC.size = new Vector2(myBC.size.x, myBC.size.y * 2);
+            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y * boxColiderMultiplyer);
+            myBC.size = new Vector2(myBC.size.x, myBC.size.y * boxColiderMultiplyer);
             myAnimator.SetBool("IsCrouching", isCrouching);
+        }
+    }
+
+    public void MotherAction(CallbackContext cc) {
+        if (cc.ReadValue<float>() == 1.0f && !actionButtonClicked) {
+            actionButtonClicked = true;
+            myIO?.OnPlayerAction(Actor.MOTHER);
+        } else if (cc.ReadValue<float>() == 0.0f && actionButtonClicked) {
+            actionButtonClicked = false;
         }
     }
 
@@ -52,5 +64,29 @@ public class MotherMovement : MonoBehaviour {
         if(InputValue != Vector2.zero) {
             myRB2D.MovePosition((Vector2)transform.position + InputValue * Time.fixedDeltaTime);
         }
+    }
+    
+    public void SetInteractionObject(InteractionObject io) {
+        myIO = io;
+    }
+    public void ClearInteractionObject() {
+        myIO = null;
+    }
+
+    IEnumerator FadeTo (float aValue, float aTime) {
+        float alpha = mySR.color.a;
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime) {
+            Color newColor = new Color (1, 1, 1, Mathf.Lerp (alpha, aValue, t));
+            mySR.color = newColor;
+            yield return null;
+        }
+    }
+
+    public void fadeOut () {
+        StartCoroutine (FadeTo (0, fadeSpeed));
+    }
+
+    public void fadeIn () {
+        StartCoroutine (FadeTo (1, fadeSpeed));
     }
 }

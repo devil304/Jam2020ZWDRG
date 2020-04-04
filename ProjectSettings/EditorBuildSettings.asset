@@ -12,11 +12,14 @@ EditorBuildSettings:
     path: Assets/Scenes/CREDITS.unity
     guid: 7de33fb85108aa64f8c5391c90573815
   - enabled: 1
-    path: Assets/Scenes/Garden.unity
-    guid: 492d0e531899a944b91cfe51673629d0
-  - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 7b9a56fb53c9cff4bab734c39d705549
+  - enabled: 1
+    path: Assets/Scenes/Ogrod.unity
+    guid: ef34f78ced7aba4438856776dc6fc9be
+  - enabled: 1
+    path: Assets/Scenes/PI.unity
+    guid: 87e4303c2b96f94448294eacd78dbafd
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 4c76140ff30444441aa64c6eab140dad,
       type: 2}
