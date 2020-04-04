@@ -15,7 +15,7 @@ public class MotherMovement : MonoBehaviour {
     Animator myAnimator;
     public InteractionObject myIO;
     // Start is called before the first frame update
-    void Start() {
+    void Awake() {
         myRB2D = GetComponent<Rigidbody2D>();
         mySR = GetComponent<SpriteRenderer>();
         myBC = GetComponent<BoxCollider2D>();

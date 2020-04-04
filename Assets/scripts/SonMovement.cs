@@ -19,7 +19,7 @@ public class SonMovement : MonoBehaviour {
     //ColorAdjustments tmp;
     float InputValue;
     bool grounded = false, Move = false;
-    private void Start () {
+    private void Awake () {
         myAnim = GetComponent<Animator> ();
         myBX = GetComponent<BoxCollider2D> ();
         mySR = GetComponent<SpriteRenderer> ();
@@ -75,18 +75,6 @@ public class SonMovement : MonoBehaviour {
         }
         FadeOutIn = false;
     }
-
-    /*private void OnCollisionEnter2D (Collision2D collision) {
-        if (collision.gameObject.tag == "Ground")
-            grounded = true;
-    }
-
-    private void OnCollisionExit2D (Collision2D collision) {
-        if (collision.gameObject.tag == "Ground") {
-            grounded = false;
-            myAnim.SetBool ("Walk", false);
-        }
-    }*/
 
     public void Action (CallbackContext cc) {
         if (cc.performed && myIO)
