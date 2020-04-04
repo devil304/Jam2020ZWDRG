@@ -175,9 +175,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2066.6665
-        width: 1435
-        height: 1033.3334
+        y: 2350
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -195,10 +195,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_1
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 2066.6665
-        width: 1435
-        height: 1033.3334
+        x: 1166
+        y: 2350
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +216,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_2
       rect:
         serializedVersion: 2
-        x: 2870
-        y: 2066.6665
-        width: 1435
-        height: 1033.3334
+        x: 2332
+        y: 2350
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,34 +234,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn ciagnie bez podtekstow_3
-      rect:
-        serializedVersion: 2
-        x: 4305
-        y: 2066.6665
-        width: 1435
-        height: 1033.3334
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: de991286cd457ebd0800000000000000
-      internalID: -2601016954166601235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sprite syn ciagnie bez podtekstow_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 1033.6666
-        width: 1435
-        height: 1033.3334
+        y: 1175
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +258,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_5
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 1033.6666
-        width: 1435
-        height: 1033.3334
+        x: 1166
+        y: 1175
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -300,10 +279,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_6
       rect:
         serializedVersion: 2
-        x: 2870
-        y: 1033.6666
-        width: 1435
-        height: 1033.3334
+        x: 2332
+        y: 1175
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,34 +297,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn ciagnie bez podtekstow_7
-      rect:
-        serializedVersion: 2
-        x: 4305
-        y: 1033.6666
-        width: 1435
-        height: 1033.3334
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 730083a63af650d10800000000000000
-      internalID: 2091200349635870775
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: sprite syn ciagnie bez podtekstow_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 0.666626
-        width: 1435
-        height: 1033.3334
+        y: 0
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,10 +321,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_9
       rect:
         serializedVersion: 2
-        x: 1435
-        y: 0.666626
-        width: 1435
-        height: 1033.3334
+        x: 1166
+        y: 0
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,10 +342,10 @@ TextureImporter:
       name: sprite syn ciagnie bez podtekstow_10
       rect:
         serializedVersion: 2
-        x: 2870
-        y: 0.666626
-        width: 1435
-        height: 1033.3334
+        x: 2332
+        y: 0
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,13 +360,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite syn ciagnie bez podtekstow_11
+      name: sprite syn ciagnie bez podtekstow_3
       rect:
         serializedVersion: 2
-        x: 4305
-        y: 0.666626
-        width: 1435
-        height: 1033.3334
+        x: 3498
+        y: 2350
+        width: 1166.75
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -416,8 +374,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc9f52c3bbeb8a6d0800000000000000
-      internalID: -2978921442128299573
+      spriteID: 386689d0fce9c4430800000000000000
+      internalID: 3768561600325772931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn ciagnie bez podtekstow_7
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 1175
+        width: 1166.75
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c430faa34e60e0da0800000000000000
+      internalID: -5976832078167211188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn ciagnie bez podtekstow_11
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 0
+        width: 1166.75
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfe6cc0dd6fd1640800000000000000
+      internalID: 5052465786242133969
       vertices: []
       indices: 
       edges: []

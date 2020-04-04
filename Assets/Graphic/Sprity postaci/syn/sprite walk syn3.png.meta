@@ -44,6 +44,18 @@ TextureImporter:
   - first:
       213: 892901317118678077
     second: sprite walk syn3_6
+  - first:
+      213: -8660808921938426994
+    second: sprite walk syn3_7
+  - first:
+      213: 7259758137039362757
+    second: sprite walk syn3_8
+  - first:
+      213: -6960964358557843957
+    second: sprite walk syn3_9
+  - first:
+      213: -2381230103868802290
+    second: sprite walk syn3_10
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,9 +157,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 650.1429
-        height: 1125
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +177,10 @@ TextureImporter:
       name: sprite walk syn3_1
       rect:
         serializedVersion: 2
-        x: 650
-        y: 0
-        width: 650.1429
-        height: 1125
+        x: 1166
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +198,10 @@ TextureImporter:
       name: sprite walk syn3_2
       rect:
         serializedVersion: 2
-        x: 1300
-        y: 0
-        width: 650.1429
-        height: 1125
+        x: 2332
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +219,10 @@ TextureImporter:
       name: sprite walk syn3_3
       rect:
         serializedVersion: 2
-        x: 1950
-        y: 0
-        width: 650.1429
-        height: 1125
+        x: 3498
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +240,10 @@ TextureImporter:
       name: sprite walk syn3_4
       rect:
         serializedVersion: 2
-        x: 2600
-        y: 0
-        width: 650.1429
-        height: 1125
+        x: 4664
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +261,10 @@ TextureImporter:
       name: sprite walk syn3_5
       rect:
         serializedVersion: 2
-        x: 3250
-        y: 0
-        width: 650.1429
-        height: 1125
+        x: 5830
+        y: 1175
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +282,10 @@ TextureImporter:
       name: sprite walk syn3_6
       rect:
         serializedVersion: 2
-        x: 3900
+        x: 0
         y: 0
-        width: 650.1429
-        height: 1125
+        width: 1166.6666
+        height: 1175
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,6 +295,90 @@ TextureImporter:
       bones: []
       spriteID: d3456526409346c00800000000000000
       internalID: 892901317118678077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite walk syn3_7
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8383542c20aec780800000000000000
+      internalID: -8660808921938426994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite walk syn3_8
+      rect:
+        serializedVersion: 2
+        x: 2332
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca9b71df87dfb460800000000000000
+      internalID: 7259758137039362757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite walk syn3_9
+      rect:
+        serializedVersion: 2
+        x: 3498
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e3102fbcfa56f90800000000000000
+      internalID: -6960964358557843957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite walk syn3_10
+      rect:
+        serializedVersion: 2
+        x: 4664
+        y: 0
+        width: 1166.6666
+        height: 1175
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bfe6a36db24fed0800000000000000
+      internalID: -2381230103868802290
       vertices: []
       indices: 
       edges: []
