@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: df863ada64664604397fd72df0ed0b6b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3275201327009463512
+    second: sprite mama kuca WZOR KOLOR (1)_0
+  - first:
+      213: -7346119688913106975
+    second: sprite mama kuca WZOR KOLOR (1)_1
+  - first:
+      213: -7926159458418810761
+    second: sprite mama kuca WZOR KOLOR (1)_2
+  - first:
+      213: -2848681797546072547
+    second: sprite mama kuca WZOR KOLOR (1)_3
+  - first:
+      213: 6934457135494269000
+    second: sprite mama kuca WZOR KOLOR (1)_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +55,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -61,7 +76,31 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -73,7 +112,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite mama kuca WZOR KOLOR (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 855.2
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82386bfeeb52c82d0800000000000000
+      internalID: -3275201327009463512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama kuca WZOR KOLOR (1)_1
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 0
+        width: 855.2
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7c4d870175d0a90800000000000000
+      internalID: -7346119688913106975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama kuca WZOR KOLOR (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1710
+        y: 0
+        width: 855.2
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77028d797ff900290800000000000000
+      internalID: -7926159458418810761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama kuca WZOR KOLOR (1)_3
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 0
+        width: 855.2
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1625238ff27778d0800000000000000
+      internalID: -2848681797546072547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama kuca WZOR KOLOR (1)_4
+      rect:
+        serializedVersion: 2
+        x: 3420
+        y: 0
+        width: 855.2
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8480f4f36042c3060800000000000000
+      internalID: 6934457135494269000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,43 +1,79 @@
 fileFormatVersion: 2
-guid: 63927efc1de3c7d45afde08e52321b87
+guid: 66100af06c4301d44aa9d7e6fd0a35a9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8845513660918021669
-    second: sprite mama ciagnie bez podtekstow_0
+      213: -4849948444981593965
+    second: sprite syn ciagnie bez podtekstow_0
   - first:
-      213: 1809394502828733279
-    second: sprite mama ciagnie bez podtekstow_1
+      213: -7069588374405622447
+    second: sprite syn ciagnie bez podtekstow_1
   - first:
-      213: 2226711906123823183
-    second: sprite mama ciagnie bez podtekstow_2
+      213: -4499297216949103256
+    second: sprite syn ciagnie bez podtekstow_2
   - first:
-      213: 7161930816259785768
-    second: sprite mama ciagnie bez podtekstow_3
+      213: 3768561600325772931
+    second: sprite syn ciagnie bez podtekstow_3
   - first:
-      213: 7829723432919862330
-    second: sprite mama ciagnie bez podtekstow_4
+      213: -4195171038434798427
+    second: sprite syn ciagnie bez podtekstow_4
   - first:
-      213: 9032320269868052470
-    second: sprite mama ciagnie bez podtekstow_5
+      213: -703275224379947251
+    second: sprite syn ciagnie bez podtekstow_5
   - first:
-      213: -7993036222370957962
-    second: sprite mama ciagnie bez podtekstow_6
+      213: -795070243451053932
+    second: sprite syn ciagnie bez podtekstow_6
   - first:
-      213: -8475981978293833978
-    second: sprite mama ciagnie bez podtekstow_7
+      213: -5976832078167211188
+    second: sprite syn ciagnie bez podtekstow_7
   - first:
-      213: 8025914285806204355
-    second: sprite mama ciagnie bez podtekstow_8
+      213: 8586060172437888745
+    second: sprite syn ciagnie bez podtekstow_8
   - first:
-      213: -4942339694511504946
-    second: sprite mama ciagnie bez podtekstow_9
+      213: -7230163288962122519
+    second: sprite syn ciagnie bez podtekstow_9
   - first:
-      213: -5485779697782445732
-    second: sprite mama ciagnie bez podtekstow_10
+      213: 4559552103937706945
+    second: sprite syn ciagnie bez podtekstow_10
   - first:
-      213: -4935431847737171501
-    second: sprite mama ciagnie bez podtekstow_11
+      213: 5052465786242133969
+    second: sprite syn ciagnie bez podtekstow_11
+  - first:
+      213: -1293106869119852339
+    second: sprite syn ciagnie bez podtekstow_0
+  - first:
+      213: -6829624087082877796
+    second: sprite syn ciagnie bez podtekstow_1
+  - first:
+      213: 6227167300129917579
+    second: sprite syn ciagnie bez podtekstow_2
+  - first:
+      213: -2601016954166601235
+    second: sprite syn ciagnie bez podtekstow_3
+  - first:
+      213: 5757690738650207070
+    second: sprite syn ciagnie bez podtekstow_4
+  - first:
+      213: -6167079852504289574
+    second: sprite syn ciagnie bez podtekstow_5
+  - first:
+      213: 4455528177839958468
+    second: sprite syn ciagnie bez podtekstow_6
+  - first:
+      213: 2091200349635870775
+    second: sprite syn ciagnie bez podtekstow_7
+  - first:
+      213: -6585146208301009350
+    second: sprite syn ciagnie bez podtekstow_8
+  - first:
+      213: 8921539787315441752
+    second: sprite syn ciagnie bez podtekstow_9
+  - first:
+      213: 624104236946412957
+    second: sprite syn ciagnie bez podtekstow_10
+  - first:
+      213: -2978921442128299573
+    second: sprite syn ciagnie bez podtekstow_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,7 +136,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -112,7 +148,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -124,7 +160,7 @@ TextureImporter:
     maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -135,253 +171,253 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_0
+      name: sprite syn ciagnie bez podtekstow_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 2066.6665
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bd1cd11e03c6e3580800000000000000
-      internalID: -8845513660918021669
+      spriteID: dc06e795726fd0ee0800000000000000
+      internalID: -1293106869119852339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_1
+      name: sprite syn ciagnie bez podtekstow_1
       rect:
         serializedVersion: 2
-        x: 730
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1435
+        y: 2066.6665
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f53b6a7b6b24c1910800000000000000
-      internalID: 1809394502828733279
+      spriteID: c9c39f3e31d4831a0800000000000000
+      internalID: -6829624087082877796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_2
+      name: sprite syn ciagnie bez podtekstow_2
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2870
+        y: 2066.6665
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f48b4a55eaed6ee10800000000000000
-      internalID: 2226711906123823183
+      spriteID: b8a0c21aaa75b6650800000000000000
+      internalID: 6227167300129917579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_3
+      name: sprite syn ciagnie bez podtekstow_3
       rect:
         serializedVersion: 2
-        x: 2190
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4305
+        y: 2066.6665
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8248611c12a446360800000000000000
-      internalID: 7161930816259785768
+      spriteID: de991286cd457ebd0800000000000000
+      internalID: -2601016954166601235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_4
-      rect:
-        serializedVersion: 2
-        x: 2920
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a3c8db48af3c8ac60800000000000000
-      internalID: 7829723432919862330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_5
-      rect:
-        serializedVersion: 2
-        x: 3650
-        y: 876
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ffab0f1e6f395d70800000000000000
-      internalID: 9032320269868052470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_6
+      name: sprite syn ciagnie bez podtekstow_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        y: 1033.6666
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 675bfb897e7031190800000000000000
-      internalID: -7993036222370957962
+      spriteID: e535dc3a83d67ef40800000000000000
+      internalID: 5757690738650207070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_7
+      name: sprite syn ciagnie bez podtekstow_5
       rect:
         serializedVersion: 2
-        x: 730
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1435
+        y: 1033.6666
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60fee256c434f5a80800000000000000
-      internalID: -8475981978293833978
+      spriteID: ade630a7c812a6aa0800000000000000
+      internalID: -6167079852504289574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_8
+      name: sprite syn ciagnie bez podtekstow_6
       rect:
         serializedVersion: 2
-        x: 1460
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2870
+        y: 1033.6666
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c536331586c16f60800000000000000
-      internalID: 8025914285806204355
+      spriteID: 4c9e4e6754735dd30800000000000000
+      internalID: 4455528177839958468
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_9
+      name: sprite syn ciagnie bez podtekstow_7
       rect:
         serializedVersion: 2
-        x: 2190
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4305
+        y: 1033.6666
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec14455cb38496bb0800000000000000
-      internalID: -4942339694511504946
+      spriteID: 730083a63af650d10800000000000000
+      internalID: 2091200349635870775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_10
+      name: sprite syn ciagnie bez podtekstow_8
       rect:
         serializedVersion: 2
-        x: 2920
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0.666626
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c59a0a50e689ed3b0800000000000000
-      internalID: -5485779697782445732
+      spriteID: a363534c96cdc94a0800000000000000
+      internalID: -6585146208301009350
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite mama ciagnie bez podtekstow_11
+      name: sprite syn ciagnie bez podtekstow_9
       rect:
         serializedVersion: 2
-        x: 3650
-        y: 0
-        width: 730
-        height: 876
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1435
+        y: 0.666626
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d1e97e22e2d18bb0800000000000000
-      internalID: -4935431847737171501
+      spriteID: 85073701b2dafcb70800000000000000
+      internalID: 8921539787315441752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn ciagnie bez podtekstow_10
+      rect:
+        serializedVersion: 2
+        x: 2870
+        y: 0.666626
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95d1023f7349a800800000000000000
+      internalID: 624104236946412957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite syn ciagnie bez podtekstow_11
+      rect:
+        serializedVersion: 2
+        x: 4305
+        y: 0.666626
+        width: 1435
+        height: 1033.3334
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc9f52c3bbeb8a6d0800000000000000
+      internalID: -2978921442128299573
       vertices: []
       indices: 
       edges: []

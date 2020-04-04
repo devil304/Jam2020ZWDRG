@@ -4,8 +4,9 @@ using UnityEngine.Rendering;
 using static UnityEngine.InputSystem.InputAction;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class Movement : MonoBehaviour
+public class SonMovement : MonoBehaviour
 {
+    Animator myAnim;
     //[SerializeField] Volume v;
     [SerializeField] float speed = 10, jumpSpeed = 1;
     Rigidbody2D myRB2D;
@@ -16,6 +17,7 @@ public class Movement : MonoBehaviour
     bool grounded = false, Move = false;
     private void Start()
     {
+        myAnim = GetComponent<Animator>();
         myBX = GetComponent<BoxCollider2D>();
         mySR = GetComponent<SpriteRenderer>();
         //v.profile.TryGet<ColorAdjustments>(out tmp);
@@ -26,12 +28,12 @@ public class Movement : MonoBehaviour
         if (!Move)
             Move = true;
         InputValue = cc.ReadValue<float>();
-        if (InputValue > 0 && !mySR.flipX)
+        if (InputValue < 0 && !mySR.flipX)
         {
             myBX.offset = new Vector2(-myBX.offset.x, myBX.offset.y);
             mySR.flipX = true;
         }
-        else if (InputValue < 0 && mySR.flipX)
+        else if (InputValue > 0 && mySR.flipX)
         {
             myBX.offset = new Vector2(-myBX.offset.x, myBX.offset.y);
             mySR.flipX = false;
@@ -49,8 +51,12 @@ public class Movement : MonoBehaviour
         if (Move && grounded)
         {
             myRB2D.velocity = (new Vector2(InputValue, myRB2D.velocity.y) * speed * Time.deltaTime);
-            if (InputValue == 0)
+            if (InputValue == 0){
                 Move = false;
+                myAnim.SetBool("Walk",false);
+            }else{
+                myAnim.SetBool("Walk",true);
+            }
         }
         /*if (tmp)
         {
@@ -66,7 +72,9 @@ public class Movement : MonoBehaviour
 
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground"){
             grounded = false;
+            myAnim.SetBool("Walk",false);
+        }
     }
 }

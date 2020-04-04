@@ -1,31 +1,49 @@
 fileFormatVersion: 2
-guid: c7629a2a016fd7b4e8cfa4f6f9626514
+guid: 6b5df2a5e41251b44b9271dd413913fb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2917236283428226819
-    second: hustawka anim2_0
+      213: -2052827496255599783
+    second: sprite walk syn3_0
   - first:
-      213: -5019935119321555094
-    second: hustawka anim2_1
+      213: 8296292301205054291
+    second: sprite walk syn3_1
   - first:
-      213: 3108163809284891519
-    second: hustawka anim2_2
+      213: 1523709046072791193
+    second: sprite walk syn3_2
   - first:
-      213: -465299693888695327
-    second: hustawka anim2_3
+      213: 7713775259187221786
+    second: sprite walk syn3_3
   - first:
-      213: -6177523902669100583
-    second: hustawka anim2_4
+      213: 138481969243206681
+    second: sprite walk syn3_4
   - first:
-      213: -337030643699720576
-    second: hustawka anim2_5
+      213: -7633613444780332301
+    second: sprite walk syn3_5
   - first:
-      213: 4172920255443409522
-    second: hustawka anim2_6
+      213: -116475120567288080
+    second: sprite walk syn3_6
   - first:
-      213: 2443386265048527871
-    second: hustawka anim2_7
+      213: 4142556329827190439
+    second: sprite walk syn3_0
+  - first:
+      213: 8453494956135632537
+    second: sprite walk syn3_1
+  - first:
+      213: -4045773402221841999
+    second: sprite walk syn3_2
+  - first:
+      213: -8289851020627239108
+    second: sprite walk syn3_3
+  - first:
+      213: 4724177248696050428
+    second: sprite walk syn3_4
+  - first:
+      213: -4372123716460146309
+    second: sprite walk syn3_5
+  - first:
+      213: 892901317118678077
+    second: sprite walk syn3_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -123,169 +141,148 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: hustawka anim2_0
+      name: sprite walk syn3_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df831607e05e387d0800000000000000
-      internalID: -2917236283428226819
+      spriteID: 7a64565a8015d7930800000000000000
+      internalID: 4142556329827190439
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_1
+      name: sprite walk syn3_1
       rect:
         serializedVersion: 2
-        x: 1436
+        x: 650
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6f94511b9b955ab0800000000000000
-      internalID: -5019935119321555094
+      spriteID: 99e4503cfd8d05570800000000000000
+      internalID: 8453494956135632537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_2
+      name: sprite walk syn3_2
       rect:
         serializedVersion: 2
-        x: 2872
+        x: 1300
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f73a62c448a622b20800000000000000
-      internalID: 3108163809284891519
+      spriteID: 1b1f7dea6868ad7c0800000000000000
+      internalID: -4045773402221841999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_3
+      name: sprite walk syn3_3
       rect:
         serializedVersion: 2
-        x: 4308
+        x: 1950
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e39aa7c46cea89f0800000000000000
-      internalID: -465299693888695327
+      spriteID: c3f9a921b6884fc80800000000000000
+      internalID: -8289851020627239108
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_4
+      name: sprite walk syn3_4
       rect:
         serializedVersion: 2
-        x: 5744
+        x: 2600
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d96ced8db6054aa0800000000000000
-      internalID: -6177523902669100583
+      spriteID: cf2a28c8d26af8140800000000000000
+      internalID: 4724177248696050428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_5
+      name: sprite walk syn3_5
       rect:
         serializedVersion: 2
-        x: 7180
+        x: 3250
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e5bdb4a60a25bf0800000000000000
-      internalID: -337030643699720576
+      spriteID: b711556f4a81353c0800000000000000
+      internalID: -4372123716460146309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: hustawka anim2_6
+      name: sprite walk syn3_6
       rect:
         serializedVersion: 2
-        x: 8616
+        x: 3900
         y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 650.1429
+        height: 1125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27a9cbdfcd039e930800000000000000
-      internalID: 4172920255443409522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hustawka anim2_7
-      rect:
-        serializedVersion: 2
-        x: 10052
-        y: 0
-        width: 1436.75
-        height: 1080
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ff33949ccd6a8e120800000000000000
-      internalID: 2443386265048527871
+      spriteID: d3456526409346c00800000000000000
+      internalID: 892901317118678077
       vertices: []
       indices: 
       edges: []
