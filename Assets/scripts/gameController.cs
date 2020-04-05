@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class gameController : MonoBehaviour {
     SonMovement sm;
     MotherMovement mm;
+    public bool interaction = false;
     private void Start () {
         Init (SceneManager.GetActiveScene (), SceneManager.GetActiveScene ());
         SceneManager.activeSceneChanged += Init;

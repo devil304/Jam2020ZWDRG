@@ -20,7 +20,6 @@ public class dS {
 
 [RequireComponent (typeof (BoxCollider2D))]
 public class InteractionObject : MonoBehaviour {
-    bool activated = false;
     [SerializeField] dS[] dialogSequenceSon;
     [SerializeField] dS[] dialogSequenceMother;
     [SerializeField] UnityEvent SonEvent;
@@ -28,8 +27,10 @@ public class InteractionObject : MonoBehaviour {
     dS[] triggeredDialog;
     [SerializeField] bool MatkaInter = true, SynInter = true;
     DialogueSystemFromHell dsfh;
+    gameController gc;
     int mL = 0, sL = 0;
     void Start () {
+        gc = FindObjectOfType<gameController>();
         mL = MatkaInter?9 : 0;
         sL = SynInter?8 : 0;
         dsfh = FindObjectOfType<DialogueSystemFromHell> ();
@@ -69,16 +70,16 @@ public class InteractionObject : MonoBehaviour {
         } else {
             i = 0;
             dsfh.DialogueEndedEvent -= nexDialog;
-            activated = false;
+            gc.interaction = false;
         }
     }
 
     public void OnPlayerAction (Actor type) {
-        if (!activated) {
+        if (!gc.interaction) {
             switch (type) {
                 case Actor.SON:
                     if (dialogSequenceSon.Length > 0) {
-                        activated = true;
+                        gc.interaction = true;
                         triggeredDialog = dialogSequenceSon;
                         i = 0;
                         dialog ();
@@ -87,7 +88,7 @@ public class InteractionObject : MonoBehaviour {
                     break;
                 case Actor.MOTHER:
                     if (dialogSequenceMother.Length > 0) {
-                        activated = true;
+                        gc.interaction = true;
                         triggeredDialog = dialogSequenceMother;
                         i = 0;
                         dialog ();
