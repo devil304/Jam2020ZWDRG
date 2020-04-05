@@ -2225,7 +2225,25 @@ MonoBehaviour:
     EventDialogEnded:
       m_PersistentCalls:
         m_Calls: []
-  dialogSequenceMother: []
+  - dialogName: B-Grandpa-Photo
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
+  dialogSequenceMother:
+  - dialogName: B-Grandpa-Photo
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   SonEvent:
     m_PersistentCalls:
       m_Calls:
@@ -6190,16 +6208,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSequenceSon: []
-  dialogSequenceMother:
-  - dialogName: B-Grandpa-Photo
-    dialogStartEventDelay: 0
-    EventDialogStart:
-      m_PersistentCalls:
-        m_Calls: []
-    dialogEndedEventDelay: 0
-    EventDialogEnded:
-      m_PersistentCalls:
-        m_Calls: []
+  dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
       m_Calls:
