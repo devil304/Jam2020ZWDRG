@@ -10,20 +10,20 @@ public class AudioScript : MonoBehaviour
     private void Awake() {
         myFx = GetComponent<AudioSource>();
     }
-    public AudioClip clickFx;
-    bool playing = false;
+    //public AudioClip clickFx;
+    //bool playing = false;
 
-    public void ClickSound()
+    public void ClickSound(AudioClip ac)
     {
         DontDestroyOnLoad(gameObject);
-        myFx.PlayOneShot(clickFx);
-        playing=true;
+        myFx.PlayOneShot(ac);
+        //playing=true;
     }
 
     private void Update() {
-        if(playing){
+        /*if(playing){
             if(!myFx.isPlaying)
                 Destroy(gameObject);
-        }
+        }*/
     }
 }
