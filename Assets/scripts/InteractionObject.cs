@@ -20,6 +20,7 @@ public class dS {
 
 [RequireComponent (typeof (BoxCollider2D))]
 public class InteractionObject : MonoBehaviour {
+    bool activated = false;
     [SerializeField] dS[] dialogSequenceSon;
     [SerializeField] dS[] dialogSequenceMother;
     [SerializeField] UnityEvent SonEvent;
@@ -52,43 +53,48 @@ public class InteractionObject : MonoBehaviour {
     int i = 0;
     void dialog () {
         dsfh.startDialogue (triggeredDialog[i].dialogName);
-        StartCoroutine(startEventWithDelay(triggeredDialog[i].EventDialogStart,triggeredDialog[i].dialogStartEventDelay));
+        StartCoroutine (startEventWithDelay (triggeredDialog[i].EventDialogStart, triggeredDialog[i].dialogStartEventDelay));
         dsfh.DialogueEndedEvent += nexDialog;
     }
 
-    IEnumerator startEventWithDelay(UnityEvent ue, float time){
-        yield return new WaitForSeconds(time);
-        ue.Invoke();
+    IEnumerator startEventWithDelay (UnityEvent ue, float time) {
+        yield return new WaitForSeconds (time);
+        ue.Invoke ();
     }
     private void nexDialog () {
-        StartCoroutine(startEventWithDelay(triggeredDialog[i].EventDialogEnded,triggeredDialog[i].dialogEndedEventDelay));
+        StartCoroutine (startEventWithDelay (triggeredDialog[i].EventDialogEnded, triggeredDialog[i].dialogEndedEventDelay));
         i++;
         if (i < triggeredDialog.Length) {
             dsfh.startDialogue (triggeredDialog[i].dialogName);
         } else {
             i = 0;
             dsfh.DialogueEndedEvent -= nexDialog;
+            activated = false;
         }
     }
 
     public void OnPlayerAction (Actor type) {
-        switch (type) {
-            case Actor.SON:
-                if (dialogSequenceSon.Length > 0) {
-                    triggeredDialog = dialogSequenceSon;
-                    i = 0;
-                    dialog ();
-                }
-                SonEvent.Invoke ();
-                break;
-            case Actor.MOTHER:
-                if (dialogSequenceMother.Length > 0) {
-                    triggeredDialog = dialogSequenceMother;
-                    i = 0;
-                    dialog ();
-                }
-                MotherEvent.Invoke ();
-                break;
+        if (!activated) {
+            switch (type) {
+                case Actor.SON:
+                    if (dialogSequenceSon.Length > 0) {
+                        activated = true;
+                        triggeredDialog = dialogSequenceSon;
+                        i = 0;
+                        dialog ();
+                    }
+                    SonEvent.Invoke ();
+                    break;
+                case Actor.MOTHER:
+                    if (dialogSequenceMother.Length > 0) {
+                        activated = true;
+                        triggeredDialog = dialogSequenceMother;
+                        i = 0;
+                        dialog ();
+                    }
+                    MotherEvent.Invoke ();
+                    break;
+            }
         }
     }
 }
