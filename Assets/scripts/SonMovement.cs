@@ -18,7 +18,7 @@ public class SonMovement : MonoBehaviour {
     InteractionObject myIO;
     //ColorAdjustments tmp;
     float InputValue;
-    bool grounded = false, Move = false;
+    bool Move = false;
     private void Awake () {
         myAnim = GetComponent<Animator> ();
         myBX = GetComponent<BoxCollider2D> ();
