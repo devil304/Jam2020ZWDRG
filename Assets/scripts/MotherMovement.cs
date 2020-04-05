@@ -64,6 +64,8 @@ public class MotherMovement : MonoBehaviour {
         if(InputValue != Vector2.zero) {
             myRB2D.MovePosition((Vector2)transform.position + InputValue * Time.fixedDeltaTime);
         }
+        Color newColor = new Color(1, 1, 1, 1);
+        mySR.color = newColor;
     }
     
     public void SetInteractionObject(InteractionObject io) {
