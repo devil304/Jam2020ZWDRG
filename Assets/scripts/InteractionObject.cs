@@ -28,6 +28,7 @@ public class InteractionObject : MonoBehaviour {
     [SerializeField] bool MatkaInter = true, SynInter = true;
     DialogueSystemFromHell dsfh;
     gameController gc;
+    public Transform interPlayer;
     int mL = 0, sL = 0;
     void Start () {
         gc = FindObjectOfType<gameController>();
@@ -38,6 +39,7 @@ public class InteractionObject : MonoBehaviour {
 
     public void OnTriggerEnter2D (Collider2D col) {
         if (col.gameObject.tag == "Player" && (col.gameObject.layer == mL || col.gameObject.layer == sL)) {
+            interPlayer = col.transform;
             if (transform.childCount > 0)
                 transform.GetChild (0).gameObject.SetActive (true);
             col.gameObject.SendMessage ("SetInteractionObject", this);
@@ -45,6 +47,7 @@ public class InteractionObject : MonoBehaviour {
     }
     public void OnTriggerExit2D (Collider2D col) {
         if (col.gameObject.tag == "Player" && (col.gameObject.layer == mL || col.gameObject.layer == sL)) {
+            interPlayer = null;
             if (transform.childCount > 0)
                 transform.GetChild (0).gameObject.SetActive (false);
             col.gameObject.SendMessage ("ClearInteractionObject");
