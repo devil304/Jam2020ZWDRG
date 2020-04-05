@@ -12,7 +12,7 @@ public class EnableDisable : MonoBehaviour
 
     IEnumerator DoTheJobD(float Delay){
         yield return new WaitForSeconds(Delay);
-        Enable.SetActive(true);
-        Disable.SetActive(false);
+        Enable?.SetActive(true);
+        Disable?.SetActive(false);
     }
 }
