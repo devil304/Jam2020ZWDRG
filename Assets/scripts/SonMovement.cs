@@ -94,7 +94,8 @@ public class SonMovement : MonoBehaviour {
     public void SetInteractionObject (InteractionObject io) {
         myIO = io;
     }
-    public void ClearInteractionObject () {
-        myIO = null;
+    public void ClearInteractionObject(InteractionObject io) {
+        if (io == myIO)
+            myIO = null;
     }
 }

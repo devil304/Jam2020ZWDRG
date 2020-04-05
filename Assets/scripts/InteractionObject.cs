@@ -50,7 +50,7 @@ public class InteractionObject : MonoBehaviour {
             interPlayer = null;
             if (transform.childCount > 0)
                 transform.GetChild (0).gameObject.SetActive (false);
-            col.gameObject.SendMessage ("ClearInteractionObject");
+            col.gameObject.SendMessage ("ClearInteractionObject", this);
         }
     }
 
