@@ -305,7 +305,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 198177318}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.16, y: -0.57, z: 27.02655}
+  m_LocalPosition: {x: -0.73, y: -0.65, z: 27.02655}
   m_LocalScale: {x: 2, y: 2, z: 0}
   m_Children: []
   m_Father: {fileID: 692515195}
@@ -544,13 +544,12 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[3].text
-      value: 'Barbra: I think I lost one of the keys, Vincent... I''ll try to get
-        inside through these pet doors."'
+      value: 'Barbra: Here''s the key.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[3].time
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -1361,6 +1360,8 @@ MonoBehaviour:
           m_StringArgument: PI
           m_BoolArgument: 0
         m_CallState: 2
+  MatkaInter: 1
+  SynInter: 0
 --- !u!61 &692515194
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1524,7 +1525,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21089c675486042439ccafe64c8412bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delayTime: 1
+  delayTime: 3.5
 --- !u!1 &696940577
 GameObject:
   m_ObjectHideFlags: 0
@@ -2083,6 +2084,8 @@ MonoBehaviour:
   MotherEvent:
     m_PersistentCalls:
       m_Calls: []
+  MatkaInter: 0
+  SynInter: 1
 --- !u!61 &1520145097
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2786,6 +2789,8 @@ MonoBehaviour:
   MotherEvent:
     m_PersistentCalls:
       m_Calls: []
+  MatkaInter: 0
+  SynInter: 1
 --- !u!61 &1993918344
 BoxCollider2D:
   m_ObjectHideFlags: 0
