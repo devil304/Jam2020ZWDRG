@@ -1320,46 +1320,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogSequenceSon: []
   dialogSequenceMother:
-  - M-Door
+  - dialogName: M-Door
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2032616375}
+          m_MethodName: LoadScene
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 894892434}
+          m_MethodName: FadeOut
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 692515197}
+          m_MethodName: loadScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PI
+            m_BoolArgument: 0
+          m_CallState: 2
   SonEvent:
     m_PersistentCalls:
       m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2032616375}
-        m_MethodName: LoadScene
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 894892434}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 692515197}
-        m_MethodName: loadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PI
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 0
 --- !u!61 &692515194
@@ -2076,7 +2084,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSequenceSon:
-  - V-Swing
+  - dialogName: V-Swing
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
@@ -2781,7 +2797,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSequenceSon:
-  - V-Tuja
+  - dialogName: V-Tuja
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:

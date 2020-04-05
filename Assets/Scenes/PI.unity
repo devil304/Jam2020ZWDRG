@@ -2097,9 +2097,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSequenceSon:
-  - V-Plant
+  - dialogName: V-Plant
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   dialogSequenceMother:
-  - M-Plant
+  - dialogName: M-Plant
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   SonEvent:
     m_PersistentCalls:
       m_Calls:
