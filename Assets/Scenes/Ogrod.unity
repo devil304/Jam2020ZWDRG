@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -408,7 +408,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.size
-      value: 3
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -418,31 +418,454 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[1].nameId
-      value: test2
+      value: V-Tuja
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[1].text
-      value: awdeawt54f6tgg4g5e56
+      value: '*Were they planted each for every member of our family? The smallest
+        shrewd would mean me, then...*'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[1].time
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[2].nameId
-      value: test3
+      value: V-Gnome
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[2].text
-      value: g7ur6h7r6ugs54tfs5t4
+      value: '*Hey there, old bud.*'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[2].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[0].nameId
+      value: V-Swing
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[0].text
+      value: '*Abandoned for many years, with only wind to enjoy the swing...*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[3].nameId
+      value: M-Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[3].text
+      value: I think I lost one of the keys, Vincent... I'll try to get inside through
+        these pet doors."
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[3].time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[4].nameId
+      value: V-Light1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[4].text
+      value: I barely remember how this corridor looked like...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[4].time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[5].nameId
+      value: M-Light
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[5].text
+      value: What a mess...
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[5].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[6].nameId
+      value: V-Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[6].text
+      value: Instantly better!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[6].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[7].nameId
+      value: M-Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[7].text
+      value: Good grief... I'm glad the vase didn't shatter. It's a family heilroom.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[7].time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[8].nameId
+      value: M-HoleInWall
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[8].text
+      value: Not hight and filigree makes a convenient combo for me~
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[8].time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[9].nameId
+      value: V-Grandpa-Photo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[9].text
+      value: Who's that?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[9].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[10].nameId
+      value: B-Grandpa-Photo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[10].text
+      value: It's your great-grandpa. He died during World War II. Left us with this
+        house...and your great-grandma with my grandpa.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[10].time
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[11].nameId
+      value: V-Bookshelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[11].text
+      value: So many books! How could anyone manage to read them all?
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[11].time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[12].nameId
+      value: M-Bookshelf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[12].text
+      value: Your pa. He loved imagining worlds free of human suffering, to which
+        he was so close every day of his work.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[12].time
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[13].nameId
+      value: V-Vinyl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[13].text
+      value: So...retro. Not many people buy vinyl records nowadays. Streaming music
+        is way more popular. Still, to me they give every type of music a very unique
+        sound.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[13].time
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[14].nameId
+      value: M-Vinyl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[14].text
+      value: Evenings with your father, listening to Queen... That was something.
+        He was rarely home, but when he didn't have to work, our living room transformed
+        into an exquisite dancing hall.
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[14].time
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[15].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[15].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[15].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[16].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[16].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[16].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[17].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[17].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[17].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[18].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[18].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[18].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[19].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[19].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[19].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[20].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[20].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[20].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[21].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[21].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[21].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[22].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[22].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[22].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[23].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[23].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[23].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[24].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[24].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[24].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[25].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[25].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[25].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[26].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[26].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[26].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[27].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[27].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[27].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[28].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[28].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[28].time
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[29].nameId
+      value: V-Gnome
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[29].text
+      value: '*Hey there, old bud.*'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[29].time
       value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -534,7 +957,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -16.114166, y: 0.018000126, z: -18.713673}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1762745397}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1375,6 +1799,133 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1708163672}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1762745396
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1762745397}
+  - component: {fileID: 1762745398}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1762745397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762745396}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 591910969}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1762745398
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1762745396}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8c88d7f327330634b8559af82567ac4f, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1880326371
 GameObject:
   m_ObjectHideFlags: 0
