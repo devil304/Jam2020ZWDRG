@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -280,6 +280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8dfe92533146514fad7960c98b516f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 --- !u!1 &198177318
 GameObject:
   m_ObjectHideFlags: 0
@@ -361,6 +362,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> 9f3c69f678e377ee37b3a420b4257b3ba3ff253a
 --- !u!1 &347182675
 GameObject:
   m_ObjectHideFlags: 0
@@ -488,7 +491,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.size
-      value: 15
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -503,8 +506,8 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[1].text
-      value: 'Vincent: *Were they planted each for every member of our family? The
-        smallest shrewd would mean me, then...*'
+      value: '*Were they planted each for every member of our family? The smallest
+        shrewd would mean me, then...*'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -519,7 +522,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[2].text
-      value: 'Vincent: *Hey there, old bud.*'
+      value: '*Hey there, old bud.*'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -534,7 +537,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[0].text
-      value: 'Vincent: *Abandoned for many years, with only wind to enjoy the swing...*'
+      value: '*Abandoned for many years, with only wind to enjoy the swing...*'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -544,7 +547,12 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[3].text
+<<<<<<< HEAD
       value: 'Barbra: Here''s the key.'
+=======
+      value: I think I lost one of the keys, Vincent... I'll try to get inside through
+        these pet doors."
+>>>>>>> 9f3c69f678e377ee37b3a420b4257b3ba3ff253a
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -559,7 +567,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[4].text
-      value: 'Vincent: I barely remember how this corridor looked like...'
+      value: I barely remember how this corridor looked like...
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -574,7 +582,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[5].text
-      value: 'Barbra: What a mess...'
+      value: What a mess...
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -589,7 +597,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[6].text
-      value: 'Vincent: Instantly better!'
+      value: Instantly better!
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -604,8 +612,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[7].text
-      value: 'Barbra: Good grief... I''m glad the vase didn''t shatter. It''s a family
-        heilroom.'
+      value: Good grief... I'm glad the vase didn't shatter. It's a family heilroom.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -620,7 +627,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[8].text
-      value: 'Barbra: Not hight and filigree makes a convenient combo for me~'
+      value: Not hight and filigree makes a convenient combo for me~
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -635,7 +642,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[9].text
-      value: 'Vincent: Who''s that?'
+      value: Who's that?
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -650,8 +657,8 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[10].text
-      value: 'Barbra: It''s your great-grandpa. He died during World War II. Left
-        us with this house...and your great-grandma with my grandpa.'
+      value: It's your great-grandpa. He died during World War II. Left us with this
+        house...and your great-grandma with my grandpa.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -666,7 +673,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[11].text
-      value: 'Vincent: So many books! How could anyone manage to read them all?'
+      value: So many books! How could anyone manage to read them all?
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -681,8 +688,8 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[12].text
-      value: 'Barbra: Your pa. He loved imagining worlds free of human suffering,
-        to which he was so close every day of his work.'
+      value: Your pa. He loved imagining worlds free of human suffering, to which
+        he was so close every day of his work.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -697,9 +704,9 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[13].text
-      value: 'Vincent: So...retro. Not many people buy vinyl records nowadays. Streaming
-        music is way more popular. Still, to me they give every type of music a very
-        unique sound.'
+      value: So...retro. Not many people buy vinyl records nowadays. Streaming music
+        is way more popular. Still, to me they give every type of music a very unique
+        sound.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -714,9 +721,9 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[14].text
-      value: 'Barbra: Evenings with your father, listening to Queen... That was something.
-        He was rarely home, but when he didn''t have to work, our living room transformed
-        into an exquisite dancing hall.'
+      value: Evenings with your father, listening to Queen... That was something.
+        He was rarely home, but when he didn't have to work, our living room transformed
+        into an exquisite dancing hall.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -1205,87 +1212,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!1 &627084270
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 627084271}
-  - component: {fileID: 627084272}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &627084271
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627084270}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.17, y: -1.14, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1993918342}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &627084272
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 627084270}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1405543855
-  m_SortingLayer: -1
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7607843}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &692515192
 GameObject:
   m_ObjectHideFlags: 0
@@ -1319,8 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogSequenceSon: []
-  dialogSequenceMother:
-  - M-Door
+  dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -1329,7 +1254,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 2032616375}
         m_MethodName: LoadScene
-        m_Mode: 1
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1398,8 +1323,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 26.09, y: -0.67, z: -27.02655}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 198177319}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1722,87 +1646,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86b63123585ccce468a9658f0bffa2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1060924191
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1060924192}
-  - component: {fileID: 1060924193}
-  m_Layer: 0
-  m_Name: New Sprite
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1060924192
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060924191}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.8, y: -1.21, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1520145095}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1060924193
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060924191}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1405543855
-  m_SortingLayer: -1
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7607843}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.2, y: 0.2}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1001 &1197126711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1969,8 +1812,6 @@ GameObject:
   - component: {fileID: 1520145095}
   - component: {fileID: 1520145094}
   - component: {fileID: 1520145093}
-  - component: {fileID: 1520145096}
-  - component: {fileID: 1520145097}
   m_Layer: 0
   m_Name: hustawka anim2_0
   m_TagString: Untagged
@@ -2058,11 +1899,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.25, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1060924192}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1520145096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2112,6 +1953,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.325109, y: 10.803687}
   m_EdgeRadius: 0
+=======
+>>>>>>> 9f3c69f678e377ee37b3a420b4257b3ba3ff253a
 --- !u!1001 &1554615694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2243,11 +2086,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Fade
-      objectReference: {fileID: 0}
-    - target: {fileID: 3848839945558856635, guid: 5afd27efd9b40864faa703104045da00,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5afd27efd9b40864faa703104045da00, type: 3}
@@ -2674,8 +2512,6 @@ GameObject:
   - component: {fileID: 1993918342}
   - component: {fileID: 1993918341}
   - component: {fileID: 1993918340}
-  - component: {fileID: 1993918343}
-  - component: {fileID: 1993918344}
   m_Layer: 0
   m_Name: krzaczki2_0
   m_TagString: Untagged
@@ -2763,11 +2599,11 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 627084271}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1993918343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2817,6 +2653,8 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 13.111339, y: 10.029}
   m_EdgeRadius: 0
+=======
+>>>>>>> 9f3c69f678e377ee37b3a420b4257b3ba3ff253a
 --- !u!1 &2010869843
 GameObject:
   m_ObjectHideFlags: 0
