@@ -931,7 +931,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5.69453
+  orthographic size: 5.2875
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1058,25 +1058,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b512000f9d5b224ebb51e96fc3449da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogSequenceSon:
-  - test
-  - test2
-  - test3
+  dialogSequenceSon: []
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2032616375}
-        m_MethodName: LoadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PI
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
       m_Calls:

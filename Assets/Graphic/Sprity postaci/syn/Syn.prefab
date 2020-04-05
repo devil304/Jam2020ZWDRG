@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   FadeOutIn: 0
-  speed: 10
+  speed: 5
   fadeSpeed: 1.5
 --- !u!61 &929497599169429040
 BoxCollider2D:
