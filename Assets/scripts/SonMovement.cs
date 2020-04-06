@@ -50,11 +50,6 @@ public class SonMovement : MonoBehaviour {
         }
     }
 
-    /*public void Jump (CallbackContext cc) {
-        if (cc.ReadValue<float> () != 0 && grounded && !FadeOutIn)
-            myRB2D.AddForce (Vector2.up * jumpSpeed, ForceMode2D.Impulse);
-    }*/
-
     private void FixedUpdate () {
         if (Move && !FadeOutIn) {
             myRB2D.MovePosition ((Vector2) transform.position + new Vector2 (InputValue, myRB2D.velocity.y) * speed * Time.fixedDeltaTime);
@@ -67,7 +62,7 @@ public class SonMovement : MonoBehaviour {
             if (PushPullB)
             {
                 box.MovePosition((Vector2)box.transform.position + new Vector2(InputValue, box.velocity.y) * speed * Time.fixedDeltaTime);
-                myAnim.SetFloat("PushPull", InputValue);
+                myAnim.SetInteger("PushPull", (int)InputValue);
             }
         } else if (FadeOutIn && Move) {
             myRB2D.velocity = new Vector2 (0, 0);
