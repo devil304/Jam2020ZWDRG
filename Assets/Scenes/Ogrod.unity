@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -666,14 +666,14 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[16].text
-      value: dening club.avourite mug. The morning coffee could never have such a
-        delightful taste in any other cup. I got it for my third anniversary in the
-        gardening club.
+      value: 'Barbra: My favourite mug. The morning coffee could never have such
+        a delightful taste in other cup. I got it for my third anniversary in the
+        gardening club.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[16].time
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -1040,12 +1040,12 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[40].text
-      value: 'Barbra: '
+      value: 'Barbra: I didn''t think it could dry out.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[40].time
-      value: 6
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8846033130528072343, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d, type: 3}
@@ -1235,7 +1235,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.5375004
+  orthographic size: 5.4
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1259,7 +1259,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591910966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -16.379166, y: 0.018000603, z: -20.513672}
+  m_LocalPosition: {x: -16.379166, y: 0.018000126, z: -12.256836}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1972,6 +1972,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1520145097
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2715,6 +2716,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1993918344
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3002,12 +3004,12 @@ PrefabInstance:
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.018000603
+      value: 0.018000126
       objectReference: {fileID: 0}
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -20.513672
+      value: -12.256836
       objectReference: {fileID: 0}
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
@@ -3083,6 +3085,11 @@ PrefabInstance:
       propertyPath: dialogSequenceMother.Array.data[0].EventDialogEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 894892434}
+    - target: {fileID: 2942369465088212261, guid: cea68bd3afd499d4788405f11a38ba52,
+        type: 3}
+      propertyPath: cooldown
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2942369465088212263, guid: cea68bd3afd499d4788405f11a38ba52,
         type: 3}
       propertyPath: m_LocalPosition.x
