@@ -38,6 +38,7 @@ public class InteractionObject : MonoBehaviour {
     gameController gc;
     public Transform interPlayer;
     int mL = 0, sL = 0;
+    [SerializeField] float cooldown = 0;
     void Start () {
         gc = FindObjectOfType<gameController>();
         mL = MatkaInter?9 : 0;
@@ -73,7 +74,7 @@ public class InteractionObject : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if(persist)
+        if(persist && collision.tag == "Player")
             collision.gameObject.SendMessage("SetInteractionObject", this);
     }
 
@@ -102,26 +103,34 @@ public class InteractionObject : MonoBehaviour {
 
     public void OnPlayerAction (Actor type) {
         if (!gc.interaction) {
+            gc.interaction = true;
             switch (type) {
                 case Actor.SON:
-                    if (dialogSequenceSon.Length > 0) {
-                        gc.interaction = true;
+                    if (dialogSequenceSon.Length > 0)
+                    {
                         triggeredDialog = dialogSequenceSon;
                         i = 0;
-                        dialog ();
+                        dialog();
                     }
+                    else
+                        StartCoroutine(cd());
                     SonEvent.Invoke (type);
                     break;
                 case Actor.MOTHER:
                     if (dialogSequenceMother.Length > 0) {
-                        gc.interaction = true;
                         triggeredDialog = dialogSequenceMother;
                         i = 0;
                         dialog ();
-                    }
+                    }else
+                        StartCoroutine(cd());
                     MotherEvent.Invoke (type);
                     break;
             }
         }
+    }
+    IEnumerator cd()
+    {
+        yield return new WaitForSeconds(cooldown);
+        gc.interaction = false;
     }
 }
