@@ -9,8 +9,11 @@ public class PushPull : MonoBehaviour
     MotherMovement mm;
     Rigidbody2D myRB;
     Actor lastActor;
+    PolygonCollider2D myPC2D;
     private void Awake()
     {
+        myPC2D = GetComponent<PolygonCollider2D>();
+        myPC2D.enabled = false;
         myRB = GetComponent<Rigidbody2D>();
         sm = FindObjectOfType<SonMovement>();
         mm = FindObjectOfType<MotherMovement>();
@@ -26,12 +29,14 @@ public class PushPull : MonoBehaviour
                 case Actor.SON:
                     if (!sm.PushPullB)
                     {
+                        myPC2D.enabled = true;  
                         sm.PushPullB = true;
                         sm.box = myRB;
                     }
                     else
                     {
-                        sm.PushPullB = false;
+                    myPC2D.enabled = false;
+                    sm.PushPullB = false;
                         sm.box = null;
                         sm.myAnim.SetInteger("PushPull", 0);
                     }
@@ -39,12 +44,14 @@ public class PushPull : MonoBehaviour
                 case Actor.MOTHER:
                     if (!mm.PushPullB)
                     {
-                        mm.PushPullB = true;
+                    myPC2D.enabled = true;
+                    mm.PushPullB = true;
                         mm.box = myRB;
                     }
                     else
                     {
-                        mm.PushPullB = false;
+                    myPC2D.enabled = false;
+                    mm.PushPullB = false;
                         mm.box = null;
                         mm.myAnimator.SetInteger("PushPull", 0);
                     }
