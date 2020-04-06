@@ -28,7 +28,7 @@ public class PushPull : MonoBehaviour
                 {
                     sm.PushPullB = false;
                     sm.box = null;
-                    sm.myAnim.SetFloat("PushPull", 0f);
+                    sm.myAnim.SetInteger("PushPull", 0);
                 }
             break;
             case Actor.MOTHER:
