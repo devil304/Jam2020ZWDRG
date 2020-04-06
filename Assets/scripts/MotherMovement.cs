@@ -44,18 +44,20 @@ public class MotherMovement : MonoBehaviour {
 
 
     public void Crouch(CallbackContext cc) {
-        int boxColiderMultiplyer = 3;
-        if(cc.ReadValue<float>() == 1.0f && !isCrouching) {
-            isCrouching = true;
-            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y / boxColiderMultiplyer);
-            myBC.size = new Vector2(myBC.size.x, myBC.size.y / boxColiderMultiplyer);
-            myAnimator.SetBool("IsCrouching", isCrouching);
+        if (!PushPullB) {
+            int boxColiderMultiplyer = 3;
+            if (cc.ReadValue<float>() == 1.0f && !isCrouching) {
+                isCrouching = true;
+                myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y / boxColiderMultiplyer);
+                myBC.size = new Vector2(myBC.size.x, myBC.size.y / boxColiderMultiplyer);
+                myAnimator.SetBool("IsCrouching", isCrouching);
 
-        } else if (cc.ReadValue<float>() == 0.0f && isCrouching) {
-            isCrouching = false;
-            myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y * boxColiderMultiplyer);
-            myBC.size = new Vector2(myBC.size.x, myBC.size.y * boxColiderMultiplyer);
-            myAnimator.SetBool("IsCrouching", isCrouching);
+            } else if (cc.ReadValue<float>() == 0.0f && isCrouching) {
+                isCrouching = false;
+                myBC.offset = new Vector2(myBC.offset.x, myBC.offset.y * boxColiderMultiplyer);
+                myBC.size = new Vector2(myBC.size.x, myBC.size.y * boxColiderMultiplyer);
+                myAnimator.SetBool("IsCrouching", isCrouching);
+            }
         }
     }
 
@@ -73,6 +75,7 @@ public class MotherMovement : MonoBehaviour {
         if(InputValue != Vector2.zero) {
             myRB2D.MovePosition((Vector2)transform.position + InputValue * Time.fixedDeltaTime);
             if (PushPullB) {
+                myAnimator.SetInteger("PushPull", (int)InputValue.x);
                 box.MovePosition((Vector2)box.transform.position + new Vector2(InputValue.x, box.velocity.y) * Time.fixedDeltaTime);
             }
         }
