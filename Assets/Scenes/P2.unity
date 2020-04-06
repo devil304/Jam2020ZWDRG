@@ -291,7 +291,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &31986909
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -399,6 +399,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &31986912
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -626,7 +627,7 @@ PrefabInstance:
     - target: {fileID: 4264269912294675832, guid: 2cf52fe4eef73a844a579f3e4096e776,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf52fe4eef73a844a579f3e4096e776, type: 3}
@@ -1142,6 +1143,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &237226183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,6 +1488,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &479938654
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2207,6 +2210,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &672598910
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2492,6 +2496,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &767295390
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2946,6 +2951,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &947218247
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3169,6 +3175,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1085330179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3721,6 +3728,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &1283815038
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3983,6 +3991,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &1318008287
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4275,6 +4284,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1351856721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4585,7 +4595,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1852470641}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1410358369
 BoxCollider2D:
@@ -4769,11 +4779,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1461524111}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.93, y: -12.13, z: 0}
+  m_LocalPosition: {x: 1.7799997, y: -0.90999985, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_Father: {fileID: 1852470641}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1464800144
 GameObject:
@@ -5032,7 +5042,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1852470641}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1542947291
 SpriteRenderer:
@@ -5183,6 +5193,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1599320905
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5395,13 +5406,16 @@ GameObject:
   - component: {fileID: 1635178238}
   - component: {fileID: 1635178237}
   - component: {fileID: 1635178236}
+  - component: {fileID: 1635178242}
+  - component: {fileID: 1635178241}
+  - component: {fileID: 1635178240}
   m_Layer: 0
   m_Name: helm za kartonemBezInterakcji
-  m_TagString: Untagged
+  m_TagString: box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1635178236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5444,6 +5458,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1635178237
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5532,8 +5547,81 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1635178240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635178235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 495813db42c1ec64db0fef1d223ed9f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enter: 0
+  DoUE:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1635178242}
+        m_MethodName: DoTheJob
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1852470636}
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!50 &1635178241
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635178235}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!114 &1635178242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635178235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f368accb270e748af4b95d1d17e3ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Enable: {fileID: 31986908}
+  Disable: {fileID: 1635178235}
 --- !u!1 &1656578287
 GameObject:
   m_ObjectHideFlags: 0
@@ -5831,6 +5919,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1714337703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6209,6 +6298,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!1 &1794236330
 GameObject:
   m_ObjectHideFlags: 0
@@ -6294,6 +6384,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1794236333
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6648,6 +6739,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1807784657
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6901,6 +6993,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 1
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &1829325525
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6999,6 +7092,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 1
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1852470637
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7119,6 +7213,7 @@ Transform:
   m_LocalPosition: {x: 3.15, y: -11.22, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1461524113}
   - {fileID: 1542947290}
   - {fileID: 1410358368}
   m_Father: {fileID: 0}
@@ -7347,6 +7442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 495813db42c1ec64db0fef1d223ed9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enter: 0
   DoUE:
     m_PersistentCalls:
       m_Calls:
@@ -7729,6 +7825,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1934276701
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8168,6 +8265,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2098603587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8364,6 +8462,7 @@ MonoBehaviour:
   SynInter: 0
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2123063844
 BoxCollider2D:
   m_ObjectHideFlags: 0
