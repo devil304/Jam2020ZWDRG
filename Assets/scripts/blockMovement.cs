@@ -10,6 +10,8 @@ public class blockMovement : MonoBehaviour
     SonMovement sm;
     MotherMovement mm;
     public enableDisable ed;
+    [SerializeField] Actor typeA = Actor.Both;
+    Actor LastActor;
     // Start is called before the first frame update
     private void Awake()
     {
@@ -17,17 +19,72 @@ public class blockMovement : MonoBehaviour
         mm = FindObjectOfType<MotherMovement>();
     }
 
+    public void block(Actor type)
+    {
+        LastActor = type;
+        switch (ed)
+        {
+            case enableDisable.Enable:
+                    switch (type)
+                    {
+                        case Actor.SON:
+                            sm.enabled = true;
+                            break;
+                        case Actor.MOTHER:
+                            mm.enabled = true;
+                            break;
+                    }
+                break;
+            case enableDisable.Disable:
+                    switch (type)
+                    {
+                        case Actor.SON:
+                            sm.enabled = false;
+                            break;
+                        case Actor.MOTHER:
+                            mm.enabled = false;
+                            break;
+                    }
+                break;
+        }
+    }
     public void block()
     {
         switch (ed)
         {
             case enableDisable.Enable:
-                sm.enabled = true;
-                mm.enabled = true;
+                if (typeA != Actor.Both)
+                    switch (LastActor)
+                    {
+                        case Actor.SON:
+                            sm.enabled = true;
+                            break;
+                        case Actor.MOTHER:
+                            mm.enabled = true;
+                            break;
+                    }
+                else
+                {
+                    sm.enabled = true;
+                    mm.enabled = true;
+                }
                 break;
             case enableDisable.Disable:
-                sm.enabled = false;
-                mm.enabled = false;
+                if (typeA != Actor.Both)
+                    switch (LastActor)
+                    {
+                        case Actor.SON:
+                            sm.enabled = false;
+                            break;
+                        case Actor.MOTHER:
+                            mm.enabled = false;
+                            break;
+                    }
+                else
+                {
+                    sm.enabled = false;
+                    mm.enabled = false;
+                }
                 break;
         }
     }

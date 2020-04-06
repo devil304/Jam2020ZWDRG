@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+[Serializable]
 public enum Actor {
     SON,
-    MOTHER
+    MOTHER,
+    Both
 }
 
 [Serializable]
@@ -18,14 +20,20 @@ public class dS {
     public UnityEvent EventDialogEnded;
 }
 
+[Serializable]
+public class UnityEventActor : UnityEvent<Actor>
+{
+
+}
+
 [RequireComponent (typeof (BoxCollider2D))]
 public class InteractionObject : MonoBehaviour {
     [SerializeField] dS[] dialogSequenceSon;
     [SerializeField] dS[] dialogSequenceMother;
-    [SerializeField] UnityEvent SonEvent;
-    [SerializeField] UnityEvent MotherEvent;
+    [SerializeField] UnityEventActor SonEvent;
+    [SerializeField] UnityEventActor MotherEvent;
     dS[] triggeredDialog;
-    [SerializeField] bool MatkaInter = true, SynInter = true;
+    [SerializeField] bool MatkaInter = true, SynInter = true, persist = false;
     DialogueSystemFromHell dsfh;
     gameController gc;
     public Transform interPlayer;
@@ -52,6 +60,12 @@ public class InteractionObject : MonoBehaviour {
                 transform.GetChild (0).gameObject.SetActive (false);
             col.gameObject.SendMessage ("ClearInteractionObject", this);
         }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if(persist)
+            collision.gameObject.SendMessage("SetInteractionObject", this);
     }
 
     int i = 0;
@@ -87,7 +101,7 @@ public class InteractionObject : MonoBehaviour {
                         i = 0;
                         dialog ();
                     }
-                    SonEvent.Invoke ();
+                    SonEvent.Invoke (type);
                     break;
                 case Actor.MOTHER:
                     if (dialogSequenceMother.Length > 0) {
@@ -96,7 +110,7 @@ public class InteractionObject : MonoBehaviour {
                         i = 0;
                         dialog ();
                     }
-                    MotherEvent.Invoke ();
+                    MotherEvent.Invoke (type);
                     break;
             }
         }

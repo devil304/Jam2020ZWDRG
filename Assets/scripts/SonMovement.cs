@@ -7,18 +7,19 @@ using static UnityEngine.InputSystem.InputAction;
 [RequireComponent (typeof (Rigidbody2D))]
 public class SonMovement : MonoBehaviour {
     [SerializeField] bool FadeOutIn = false;
-    Animator myAnim;
+    public Animator myAnim;
     //[SerializeField] Volume v;
     [SerializeField] float speed = 10;
     public float fadeSpeed = 1.5f;
     Rigidbody2D myRB2D;
     SpriteRenderer mySR;
     BoxCollider2D myBX;
-
+    public bool block = false, PushPullB = false;
     InteractionObject myIO;
     //ColorAdjustments tmp;
     float InputValue;
     bool Move = false;
+    public Rigidbody2D box;
     private void Awake () {
         myAnim = GetComponent<Animator> ();
         myBX = GetComponent<BoxCollider2D> ();
@@ -28,15 +29,24 @@ public class SonMovement : MonoBehaviour {
         //StartCoroutine (FadeTo (0, fadeSpeed));
     }
     public void move (CallbackContext cc) {
-        if (!Move)
-            Move = true;
-        InputValue = cc.ReadValue<float> ();
-        if (InputValue < 0 && !mySR.flipX) {
-            myBX.offset = new Vector2 (-myBX.offset.x, myBX.offset.y);
-            mySR.flipX = true;
-        } else if (InputValue > 0 && mySR.flipX) {
-            myBX.offset = new Vector2 (-myBX.offset.x, myBX.offset.y);
-            mySR.flipX = false;
+        if (!block)
+        {
+            if (!Move)
+                Move = true;
+            InputValue = cc.ReadValue<float>();
+            if (InputValue < 0 && !mySR.flipX)
+            {
+                myBX.offset = new Vector2(-myBX.offset.x, myBX.offset.y);
+                mySR.flipX = true;
+            }
+            else if (InputValue > 0 && mySR.flipX)
+            {
+                myBX.offset = new Vector2(-myBX.offset.x, myBX.offset.y);
+                if(!PushPullB)
+                    mySR.flipX = false;
+            }
+            if(PushPullB)
+                mySR.flipX = true;
         }
     }
 
@@ -53,6 +63,11 @@ public class SonMovement : MonoBehaviour {
                 myAnim.SetBool ("Walk", false);
             } else {
                 myAnim.SetBool ("Walk", true);
+            }
+            if (PushPullB)
+            {
+                box.MovePosition((Vector2)box.transform.position + new Vector2(InputValue, box.velocity.y) * speed * Time.fixedDeltaTime);
+                myAnim.SetFloat("PushPull", InputValue);
             }
         } else if (FadeOutIn && Move) {
             myRB2D.velocity = new Vector2 (0, 0);

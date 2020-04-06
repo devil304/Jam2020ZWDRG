@@ -625,7 +625,7 @@ PrefabInstance:
     - target: {fileID: 4264269912294675832, guid: 2cf52fe4eef73a844a579f3e4096e776,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cf52fe4eef73a844a579f3e4096e776, type: 3}
@@ -1077,54 +1077,10 @@ MonoBehaviour:
         m_Calls: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 237226184}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 237226183}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 237226184}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 237226183}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -1141,6 +1097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 1
+  typeA: 0
 --- !u!114 &237226184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1419,54 +1376,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 479938655}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 479938656}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 479938655}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 479938656}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -1523,6 +1436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 0
+  typeA: 0
 --- !u!1 &543927391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1694,7 +1608,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 589302896}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.33, y: 4.25, z: 0}
+  m_LocalPosition: {x: -1.31, y: 1.74, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 1}
   m_Children: []
   m_Father: {fileID: 1714337701}
@@ -2119,6 +2033,7 @@ GameObject:
   - component: {fileID: 672598909}
   - component: {fileID: 672598908}
   - component: {fileID: 672598913}
+  - component: {fileID: 672598914}
   m_Layer: 0
   m_Name: StairsLightSwitch (1)
   m_TagString: Untagged
@@ -2159,32 +2074,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 672598908}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 672598908}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -2375,6 +2268,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &672598914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672598907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &767295387
 GameObject:
   m_ObjectHideFlags: 0
@@ -2389,6 +2295,7 @@ GameObject:
   - component: {fileID: 767295389}
   - component: {fileID: 767295388}
   - component: {fileID: 767295393}
+  - component: {fileID: 767295394}
   m_Layer: 0
   m_Name: StairsLightSwitch (2)
   m_TagString: Untagged
@@ -2429,32 +2336,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 767295388}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 767295388}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -2645,6 +2530,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &767295394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767295387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &768228928
 GameObject:
   m_ObjectHideFlags: 0
@@ -2717,18 +2615,6 @@ Transform:
   m_Father: {fileID: 1195628500}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &849615371 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4264269912294675812, guid: 2cf52fe4eef73a844a579f3e4096e776,
-    type: 3}
-  m_PrefabInstance: {fileID: 99748012}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 86b63123585ccce468a9658f0bffa2fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &947218241
 GameObject:
   m_ObjectHideFlags: 0
@@ -2828,6 +2714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 0
+  typeA: 0
 --- !u!114 &947218245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2858,54 +2745,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 947218245}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 947218244}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 947218245}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 947218244}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -2970,10 +2813,10 @@ MonoBehaviour:
   m_Targets:
   - target: {fileID: 1096822315}
     weight: 1
-    radius: 4.2
+    radius: 6
   - target: {fileID: 9580965}
     weight: 1
-    radius: 4.2
+    radius: 6
 --- !u!1 &1045600860
 GameObject:
   m_ObjectHideFlags: 0
@@ -3061,6 +2904,7 @@ GameObject:
   - component: {fileID: 1085330178}
   - component: {fileID: 1085330177}
   - component: {fileID: 1085330182}
+  - component: {fileID: 1085330183}
   m_Layer: 0
   m_Name: KitchenRoomLightSwitch
   m_TagString: Untagged
@@ -3101,32 +2945,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1085330177}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1085330177}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -3317,6 +3139,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1085330183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085330176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!4 &1096822315 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 929497599169429005, guid: 54a6876fddd9baa49961c2c61979e6f0,
@@ -3617,54 +3452,10 @@ MonoBehaviour:
         m_Calls: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1283815038}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1283815039}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1283815038}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1283815039}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -3695,6 +3486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 1
+  typeA: 0
 --- !u!1 &1307133269
 GameObject:
   m_ObjectHideFlags: 0
@@ -3784,6 +3576,7 @@ GameObject:
   - component: {fileID: 1318008286}
   - component: {fileID: 1318008287}
   - component: {fileID: 1318008288}
+  - component: {fileID: 1318008289}
   m_Layer: 0
   m_Name: DiningRoomLightSwitch
   m_TagString: Untagged
@@ -3898,32 +3691,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1318008287}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1318008287}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -4040,6 +3811,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1318008289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318008282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &1330971962
 GameObject:
   m_ObjectHideFlags: 0
@@ -4135,6 +3919,7 @@ GameObject:
   - component: {fileID: 1351856720}
   - component: {fileID: 1351856719}
   - component: {fileID: 1351856724}
+  - component: {fileID: 1351856725}
   m_Layer: 0
   m_Name: UpStairsLightSwitch
   m_TagString: Untagged
@@ -4175,32 +3960,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1351856719}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1351856719}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -4391,6 +4154,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1351856725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1351856718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &1372440838
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,6 +4585,7 @@ GameObject:
   - component: {fileID: 1599320904}
   - component: {fileID: 1599320903}
   - component: {fileID: 1599320908}
+  - component: {fileID: 1599320909}
   m_Layer: 0
   m_Name: DownRoomLightSwitch
   m_TagString: Untagged
@@ -4849,32 +4626,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1599320903}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1599320903}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -5065,6 +4820,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1599320909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1599320902}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &1656578287
 GameObject:
   m_ObjectHideFlags: 0
@@ -5233,7 +5001,7 @@ PrefabInstance:
     - target: {fileID: 5718820874570817146, guid: 7ecb7922cafb5f2499a3ff0e35618d91,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.6000004
+      value: -6.6
       objectReference: {fileID: 0}
     - target: {fileID: 5718820874570817146, guid: 7ecb7922cafb5f2499a3ff0e35618d91,
         type: 3}
@@ -5243,7 +5011,7 @@ PrefabInstance:
     - target: {fileID: 5718820874570817146, guid: 7ecb7922cafb5f2499a3ff0e35618d91,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.713673
+      value: -20.513672
       objectReference: {fileID: 0}
     - target: {fileID: 5718820874570817146, guid: 7ecb7922cafb5f2499a3ff0e35618d91,
         type: 3}
@@ -5304,6 +5072,7 @@ GameObject:
   - component: {fileID: 1714337703}
   - component: {fileID: 1714337702}
   - component: {fileID: 1714337704}
+  - component: {fileID: 1714337705}
   m_Layer: 0
   m_Name: akcjaDoPajeczyn
   m_TagString: Untagged
@@ -5319,7 +5088,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714337700}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.94, y: 1.77, z: 0}
+  m_LocalPosition: {x: 0.64, y: 1.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 589302897}
@@ -5343,9 +5112,9 @@ MonoBehaviour:
   SonEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1714337704}
-        m_MethodName: DoTheJob
-        m_Mode: 4
+      - m_Target: {fileID: 1714337705}
+        m_MethodName: SDStart
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5400,6 +5169,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Enable: {fileID: 0}
   Disable: {fileID: 1934276699}
+--- !u!114 &1714337705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1714337700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23611ef35a4459a4c87bd7e68e63769c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  son: {fileID: 1900516810}
+  sm: {fileID: 2141762759}
+  endEv:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1714337704}
+        m_MethodName: DoTheJob
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1719834949
 GameObject:
   m_ObjectHideFlags: 0
@@ -5613,6 +5410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 0
+  typeA: 0
 --- !u!4 &1784226555
 Transform:
   m_ObjectHideFlags: 0
@@ -5657,54 +5455,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1784226556}
-        m_MethodName: loadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PIII
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 849615371}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1784226556}
-        m_MethodName: loadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PIII
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 849615371}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -5722,6 +5476,7 @@ GameObject:
   - component: {fileID: 1794236332}
   - component: {fileID: 1794236331}
   - component: {fileID: 1794236336}
+  - component: {fileID: 1794236337}
   m_Layer: 0
   m_Name: BathRoomLightSwitch
   m_TagString: Untagged
@@ -5762,32 +5517,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1794236331}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1794236331}
-        m_MethodName: ToggleLight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -5978,6 +5711,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1794236337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1794236330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1 &1807784653
 GameObject:
   m_ObjectHideFlags: 0
@@ -6080,54 +5826,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1807784659}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1807784658}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1807784659}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1807784658}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -6170,6 +5872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 0
+  typeA: 0
 --- !u!114 &1807784659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6331,54 +6034,10 @@ MonoBehaviour:
         m_Calls: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1829325525}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1829325526}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1829325525}
-        m_MethodName: DoTheJob
-        m_Mode: 4
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1829325526}
-        m_MethodName: block
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -6409,6 +6068,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 1
+  typeA: 0
 --- !u!1 &1873877981
 GameObject:
   m_ObjectHideFlags: 0
@@ -6633,6 +6293,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54a6876fddd9baa49961c2c61979e6f0, type: 3}
+--- !u!95 &1900516810 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 929497599169429041, guid: 54a6876fddd9baa49961c2c61979e6f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1900516809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1933567251
 GameObject:
   m_ObjectHideFlags: 0
@@ -6766,10 +6432,10 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 8.892397, y: 6.015012}
+  m_Offset: {x: 8.892397, y: 6.1831856}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6780,7 +6446,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 8.672271, y: 13.28998}
+  m_Size: {x: 8.672272, y: 12.953632}
   m_EdgeRadius: 0
 --- !u!212 &1934276702
 SpriteRenderer:
@@ -6912,7 +6578,7 @@ PrefabInstance:
     - target: {fileID: 3038105737725660590, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.6000004
+      value: -6.6
       objectReference: {fileID: 0}
     - target: {fileID: 3038105737725660590, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
@@ -6922,7 +6588,7 @@ PrefabInstance:
     - target: {fileID: 3038105737725660590, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -18.713673
+      value: -20.513672
       objectReference: {fileID: 0}
     - target: {fileID: 3038105737725660590, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
@@ -6967,7 +6633,7 @@ PrefabInstance:
     - target: {fileID: 3038105737725660591, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: orthographic size
-      value: 5.3187494
+      value: 7.56875
       objectReference: {fileID: 0}
     - target: {fileID: 3038105737725660591, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
@@ -7187,54 +6853,10 @@ MonoBehaviour:
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2098603585}
-        m_MethodName: loadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PI
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 849615371}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MotherEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2098603585}
-        m_MethodName: loadScene
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PI
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 849615371}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
   MatkaInter: 1
   SynInter: 1
   interPlayer: {fileID: 0}
@@ -7277,6 +6899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ed: 0
+  typeA: 0
 --- !u!4 &2098603589
 Transform:
   m_ObjectHideFlags: 0
@@ -7557,6 +7180,161 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a5cd55b24df76d4cbca5c391a4cbf57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &3283627941954027952
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3283627941954027958}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 13b672ab4d06ceb45baee5a0606a6664, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 1
+  BypassListenerEffects: 1
+  BypassReverbZones: 1
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &3283627941954027953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3283627941954027958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc3c17b7805e5f428274700b515ed14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeTime: 1
+--- !u!1 &3283627941954027958
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3283627941954027959}
+  - component: {fileID: 3283627941954027952}
+  - component: {fileID: 3283627941954027953}
+  - component: {fileID: 3283627941954027960}
+  m_Layer: 0
+  m_Name: Audio SourcePII
+  m_TagString: BGMusic
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3283627941954027959
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3283627941954027958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3283627941954027960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3283627941954027958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cefd446ca1219ed4db3b04bbaa7b85ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startVol: 0
 --- !u!1001 &5688663180995180016
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7564,6 +7342,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5688663179952373571, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
+        type: 3}
+      propertyPath: SonEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688663179952373571, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
+        type: 3}
+      propertyPath: MotherEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5688663180867744588, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
         type: 3}
       propertyPath: m_Name
@@ -7622,6 +7410,16 @@ PrefabInstance:
     - target: {fileID: 5688663180867744589, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688663181110125906, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
+        type: 3}
+      propertyPath: SonEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5688663181110125906, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
+        type: 3}
+      propertyPath: MotherEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

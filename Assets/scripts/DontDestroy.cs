@@ -16,7 +16,13 @@ public class DontDestroy : MonoBehaviour {
         }
         myAS=GetComponent<AudioSource>();
         DontDestroyOnLoad (gameObject);
-        StartCoroutine(FadeTo(1,fadeTime));
+    }
+    
+    void Start()
+    {
+        float tmp = myAS.volume;
+        myAS.volume = 0;
+        StartCoroutine(FadeTo(tmp, fadeTime));
     }
 
     IEnumerator FadeTo (float aValue, float aTime) {
