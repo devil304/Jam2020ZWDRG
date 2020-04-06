@@ -6,7 +6,11 @@ using UnityEngine.Events;
 [RequireComponent(typeof(Rigidbody2D))]
 public class OnTriggerExitDo : MonoBehaviour
 {
-    bool enter = false;
+    private void Start()
+    {
+        StartCoroutine(w8());
+    }
+    [SerializeField] bool enter = false;
     IEnumerator w8()
     {
         yield return new WaitForSeconds(0.5f);

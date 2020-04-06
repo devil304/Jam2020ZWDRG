@@ -19,6 +19,7 @@ public class gameController : MonoBehaviour {
         mm = FindObjectOfType<MotherMovement> ();
         sm?.fadeIn ();
         mm?.fadeIn ();
+        interaction = false;
     }
 
     public void LoadScene () {

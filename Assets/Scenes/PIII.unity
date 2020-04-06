@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -172,6 +172,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &30791593
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -454,6 +455,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &150735959
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1705,6 +1707,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &383803516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2167,6 +2170,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &550163301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2485,6 +2489,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &715874996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2573,6 +2578,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 495813db42c1ec64db0fef1d223ed9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enter: 0
   DoUE:
     m_PersistentCalls:
       m_Calls:
@@ -2611,14 +2617,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 10000
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!61 &768147620
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3251,6 +3257,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &860836894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4266,6 +4273,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1210070869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4647,7 +4655,7 @@ GameObject:
   - component: {fileID: 1447952872}
   m_Layer: 0
   m_Name: Box
-  m_TagString: Untagged
+  m_TagString: box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4698,6 +4706,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 1
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1447952867
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5374,6 +5383,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1563316210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6031,6 +6041,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!1 &1752684354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6156,6 +6167,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1752684357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6517,6 +6529,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1921030703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6896,6 +6909,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!4 &2071430916
 Transform:
   m_ObjectHideFlags: 0
@@ -7036,6 +7050,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2072332582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7203,6 +7218,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2094305749
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7269,6 +7285,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!1 &2942369463579563605
 GameObject:
   m_ObjectHideFlags: 0
@@ -7522,6 +7539,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2942369464525905042
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7912,6 +7930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 495813db42c1ec64db0fef1d223ed9f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enter: 0
   DoUE:
     m_PersistentCalls:
       m_Calls:
@@ -7950,14 +7969,14 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_LinearDrag: 10000
+  m_AngularDrag: 0
   m_GravityScale: 1
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!114 &4449876950646028457
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8015,7 +8034,7 @@ GameObject:
   - component: {fileID: 9137719959262952840}
   m_Layer: 0
   m_Name: Szafa
-  m_TagString: Untagged
+  m_TagString: box
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8557,3 +8576,4 @@ MonoBehaviour:
   SynInter: 1
   persist: 1
   interPlayer: {fileID: 0}
+  cooldown: 0
