@@ -7813,7 +7813,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b512000f9d5b224ebb51e96fc3449da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogSequenceSon: []
+  dialogSequenceSon:
+  - dialogName: V-Pajak
+    dialogStartEventDelay: 0
+    EventDialogStart:
+      m_PersistentCalls:
+        m_Calls: []
+    dialogEndedEventDelay: 0
+    EventDialogEnded:
+      m_PersistentCalls:
+        m_Calls: []
   dialogSequenceMother: []
   SonEvent:
     m_PersistentCalls:
@@ -7821,7 +7830,7 @@ MonoBehaviour:
   MotherEvent:
     m_PersistentCalls:
       m_Calls: []
-  MatkaInter: 1
+  MatkaInter: 0
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
