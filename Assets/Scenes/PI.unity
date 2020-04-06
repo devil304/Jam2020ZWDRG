@@ -444,6 +444,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &150735959
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2374,6 +2375,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!114 &550163301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2700,6 +2702,11 @@ PrefabInstance:
       propertyPath: MotherEvent.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2942369465088212261, guid: cea68bd3afd499d4788405f11a38ba52,
+        type: 3}
+      propertyPath: cooldown
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 2942369465088212263, guid: cea68bd3afd499d4788405f11a38ba52,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3000,6 +3007,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &715874996
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3361,6 +3369,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &792751089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3703,6 +3712,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &860836894
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4385,6 +4395,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1139112920
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4860,6 +4871,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1210070869
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5043,6 +5055,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1338275909
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5793,6 +5806,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1601161035
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5924,6 +5938,7 @@ MonoBehaviour:
   SynInter: 0
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1611807003
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6483,6 +6498,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!1 &1752684354
 GameObject:
   m_ObjectHideFlags: 0
@@ -6608,6 +6624,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1752684357
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6968,6 +6985,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1921030703
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7176,6 +7194,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &1979708723
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7569,6 +7588,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2072332582
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7736,6 +7756,7 @@ MonoBehaviour:
   SynInter: 1
   persist: 0
   interPlayer: {fileID: 0}
+  cooldown: 0
 --- !u!61 &2094305749
 BoxCollider2D:
   m_ObjectHideFlags: 0

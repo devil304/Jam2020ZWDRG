@@ -52,6 +52,7 @@ public class InteractionObject : MonoBehaviour {
         {
             interPlayer.gameObject.SendMessage("ClearInteractionObject", this);
             GetComponent<PushPull>().pushPull(Actor.Both);
+            Destroy(this);
         }
     }
 
