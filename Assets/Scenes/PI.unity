@@ -263,7 +263,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &95039093
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -442,6 +442,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &150735959
 BoxCollider2D:
@@ -942,7 +943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &347365522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1296,6 +1297,7 @@ GameObject:
   - component: {fileID: 359761077}
   - component: {fileID: 359761078}
   - component: {fileID: 359761079}
+  - component: {fileID: 359761080}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1362,7 +1364,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359761073}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.920639, y: -4.9473314, z: -20.513672}
+  m_LocalPosition: {x: -12.26656, y: -4.9473314, z: -20.513672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1543,6 +1545,23 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &359761080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359761073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 73fcba4922e253d41ac6c475303857fe, type: 2}
 --- !u!1 &374200170
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,6 +2372,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!114 &550163301
 MonoBehaviour:
@@ -2978,6 +2998,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &715874996
 BoxCollider2D:
@@ -3338,6 +3359,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &792751089
 BoxCollider2D:
@@ -3679,6 +3701,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &860836894
 BoxCollider2D:
@@ -4360,6 +4383,7 @@ MonoBehaviour:
       m_Calls: []
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1139112920
 BoxCollider2D:
@@ -4834,6 +4858,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1210070869
 BoxCollider2D:
@@ -5016,6 +5041,7 @@ MonoBehaviour:
       m_Calls: []
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1338275909
 BoxCollider2D:
@@ -5366,7 +5392,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1418274828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5765,6 +5791,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1601161035
 BoxCollider2D:
@@ -5895,6 +5922,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 0
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1611807003
 BoxCollider2D:
@@ -6453,6 +6481,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!1 &1752684354
 GameObject:
@@ -6577,6 +6606,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1752684357
 BoxCollider2D:
@@ -6708,7 +6738,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1866954382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6936,6 +6966,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1921030703
 BoxCollider2D:
@@ -7143,6 +7174,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &1979708723
 BoxCollider2D:
@@ -7535,6 +7567,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &2072332582
 BoxCollider2D:
@@ -7701,6 +7734,7 @@ MonoBehaviour:
         m_CallState: 2
   MatkaInter: 1
   SynInter: 1
+  persist: 0
   interPlayer: {fileID: 0}
 --- !u!61 &2094305749
 BoxCollider2D:
