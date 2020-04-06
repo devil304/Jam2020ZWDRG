@@ -1,7 +1,43 @@
 fileFormatVersion: 2
 guid: e3d7babb2d3d1144dae10e1027437020
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8845513660918021669
+    second: sprite mama ciagnie bez podtekstow_0
+  - first:
+      213: 1809394502828733279
+    second: sprite mama ciagnie bez podtekstow_1
+  - first:
+      213: 2226711906123823183
+    second: sprite mama ciagnie bez podtekstow_2
+  - first:
+      213: 7161930816259785768
+    second: sprite mama ciagnie bez podtekstow_3
+  - first:
+      213: 7829723432919862330
+    second: sprite mama ciagnie bez podtekstow_4
+  - first:
+      213: 9032320269868052470
+    second: sprite mama ciagnie bez podtekstow_5
+  - first:
+      213: -7993036222370957962
+    second: sprite mama ciagnie bez podtekstow_6
+  - first:
+      213: -8475981978293833978
+    second: sprite mama ciagnie bez podtekstow_7
+  - first:
+      213: 8025914285806204355
+    second: sprite mama ciagnie bez podtekstow_8
+  - first:
+      213: -4942339694511504946
+    second: sprite mama ciagnie bez podtekstow_9
+  - first:
+      213: -5485779697782445732
+    second: sprite mama ciagnie bez podtekstow_10
+  - first:
+      213: -4935431847737171501
+    second: sprite mama ciagnie bez podtekstow_11
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -109,7 +145,259 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd1cd11e03c6e3580800000000000000
+      internalID: -8845513660918021669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_1
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53b6a7b6b24c1910800000000000000
+      internalID: 1809394502828733279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_2
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f48b4a55eaed6ee10800000000000000
+      internalID: 2226711906123823183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_3
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8248611c12a446360800000000000000
+      internalID: 7161930816259785768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_4
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3c8db48af3c8ac60800000000000000
+      internalID: 7829723432919862330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_5
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 921.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ffab0f1e6f395d70800000000000000
+      internalID: 9032320269868052470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675bfb897e7031190800000000000000
+      internalID: -7993036222370957962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_7
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60fee256c434f5a80800000000000000
+      internalID: -8475981978293833978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_8
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c536331586c16f60800000000000000
+      internalID: 8025914285806204355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_9
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec14455cb38496bb0800000000000000
+      internalID: -4942339694511504946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_10
+      rect:
+        serializedVersion: 2
+        x: 3556
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59a0a50e689ed3b0800000000000000
+      internalID: -5485779697782445732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite mama ciagnie bez podtekstow_11
+      rect:
+        serializedVersion: 2
+        x: 4445
+        y: 0.5
+        width: 889
+        height: 921.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1e97e22e2d18bb0800000000000000
+      internalID: -4935431847737171501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

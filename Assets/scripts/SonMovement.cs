@@ -69,8 +69,6 @@ public class SonMovement : MonoBehaviour {
             Move = false;
             myAnim.SetBool ("Walk", false);
         }
-        Color newColor = new Color(1, 1, 1, 1);
-        mySR.color = newColor;
         /*if (tmp)
         {
             tmp.saturation.value += Time.deltaTime * 20;

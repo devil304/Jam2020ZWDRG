@@ -12,8 +12,10 @@ public class MotherMovement : MonoBehaviour {
     Vector2 InputValue;
     public bool isCrouching = false;
     private bool actionButtonClicked = false;
-    Animator myAnimator;
+    public Animator myAnimator;
     public InteractionObject myIO;
+    public bool PushPullB = false;
+    public Rigidbody2D box;
     // Start is called before the first frame update
     void Awake() {
         myRB2D = GetComponent<Rigidbody2D>();
@@ -31,8 +33,15 @@ public class MotherMovement : MonoBehaviour {
         } else if (InputValue.x < 0 && !mySR.flipX) {
             mySR.flipX = true;
             myBC.offset = new Vector2(-myBC.offset.x, myBC.offset.y);
+            if (!PushPullB)
+                mySR.flipX = true;
+        }
+        if (PushPullB) {
+            myAnimator.SetInteger("PushPull", (int)InputValue.x);
+            mySR.flipX = true;
         }
     }
+
 
     public void Crouch(CallbackContext cc) {
         int boxColiderMultiplyer = 3;
@@ -63,9 +72,10 @@ public class MotherMovement : MonoBehaviour {
     void FixedUpdate() {
         if(InputValue != Vector2.zero) {
             myRB2D.MovePosition((Vector2)transform.position + InputValue * Time.fixedDeltaTime);
+            if (PushPullB) {
+                box.MovePosition((Vector2)box.transform.position + new Vector2(InputValue.x, box.velocity.y) * Time.fixedDeltaTime);
+            }
         }
-        Color newColor = new Color(1, 1, 1, 1);
-        mySR.color = newColor;
     }
     
     public void SetInteractionObject(InteractionObject io) {

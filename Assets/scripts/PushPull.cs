@@ -37,7 +37,7 @@ public class PushPull : MonoBehaviour
                     }
                     break;
                 case Actor.MOTHER:
-                    /*if (!mm.PushPullB)
+                    if (!mm.PushPullB)
                     {
                         mm.PushPullB = true;
                         mm.box = myRB;
@@ -46,8 +46,8 @@ public class PushPull : MonoBehaviour
                     {
                         mm.PushPullB = false;
                         mm.box = null;
-                        mm.myAnim.SetFloat("PushPull",0f);
-                    }*/
+                        mm.myAnimator.SetInteger("PushPull", 0);
+                    }
                     break;
             }
     }
