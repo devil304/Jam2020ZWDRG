@@ -407,7 +407,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.size
-      value: 23
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -666,9 +666,9 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[16].text
-      value: 'Barbra: My favourite mug. The morning coffee could never have such
-        a delightful taste in any other cup. I got it for my third anniversary in
-        the gardening club.'
+      value: dening club.avourite mug. The morning coffee could never have such a
+        delightful taste in any other cup. I got it for my third anniversary in the
+        gardening club.
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -683,7 +683,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[17].text
-      value: 'Barbra: I don''t understand why I didn''t take him when I moved.'
+      value: 'Barbra: I don''t understand why I didn''t take it when I moved.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -735,7 +735,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[20].time
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -745,7 +745,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[21].text
-      value: 'Vincent: I remebmer, that I liked play with it.'
+      value: 'Vincent: I used to play with it a lot.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -760,7 +760,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[22].text
-      value: 'Barbra: His old helmet. I didn''t know where it disappeared.'
+      value: 'Barbra: His old helmet. I didn''t know where it went.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -770,42 +770,44 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[23].nameId
-      value: V-Gnome
+      value: V-Photofamily
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[23].text
-      value: '*Hey there, old bud.*'
+      value: 'Vincent: Dad always tried to be close to us. He was the smile of the
+        family'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[23].time
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[24].nameId
-      value: V-Gnome
+      value: M-Photofamily
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[24].text
-      value: '*Hey there, old bud.*'
+      value: 'Barbra: Your pa saved people who needed it the most. Only a man with
+        a great heart could become a firefighter. He was one of them.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[24].time
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[25].nameId
-      value: V-Gnome
+      value: V-Calendar
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[25].text
-      value: '*Hey there, old bud.*'
+      value: 'Vincent: Time stands still in here.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -815,12 +817,12 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[26].nameId
-      value: V-Gnome
+      value: M-Calendar
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[26].text
-      value: '*Hey there, old bud.*'
+      value: 'Barbra: It''s been eleven years...'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -830,32 +832,33 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[27].nameId
-      value: V-Gnome
+      value: V-Pajak
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[27].text
-      value: '*Hey there, old bud.*'
+      value: 'V: I''ll take care of it!'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[27].time
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[28].nameId
-      value: V-Gnome
+      value: M-Pajak
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[28].text
-      value: '*Hey there, old bud.*'
+      value: 'Barbra: What a nightmare... I''ve never seen these disgusting creatures
+        in this house before.'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[28].time
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -1065,7 +1068,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591910966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.4808335, y: 0.018000603, z: -20.513672}
+  m_LocalPosition: {x: 2.480834, y: 0.018000603, z: -20.513672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2695,7 +2698,7 @@ PrefabInstance:
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.4808335
+      value: 2.480834
       objectReference: {fileID: 0}
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
