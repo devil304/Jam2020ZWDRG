@@ -45,6 +45,15 @@ public class InteractionObject : MonoBehaviour {
         dsfh = FindObjectOfType<DialogueSystemFromHell> ();
     }
 
+    private void OnDisable()
+    {
+        if (persist && GetComponent<PushPull>())
+        {
+            interPlayer.gameObject.SendMessage("ClearInteractionObject", this);
+            GetComponent<PushPull>().pushPull(Actor.Both);
+        }
+    }
+
     public void OnTriggerEnter2D (Collider2D col) {
         if (col.gameObject.tag == "Player" && (col.gameObject.layer == mL || col.gameObject.layer == sL)) {
             interPlayer = col.transform;
