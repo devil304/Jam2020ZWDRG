@@ -350,7 +350,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31986908}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.85, y: -15.34, z: 0}
+  m_LocalPosition: {x: 3.7, y: -15.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1756571325}
@@ -4591,7 +4591,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410358367}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.32, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1852470641}
@@ -5472,7 +5472,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.1215382, y: -0.40916538}
+  m_Offset: {x: 1.5541766, y: -0.40916538}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5483,7 +5483,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.2569237, y: 2.1669445}
+  m_Size: {x: 4.391647, y: 2.1669445}
   m_EdgeRadius: 0
 --- !u!212 &1635178238
 SpriteRenderer:
@@ -5543,7 +5543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1635178235}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.85, y: -15.34, z: 0}
+  m_LocalPosition: {x: 3.7, y: -15.34, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -7210,8 +7210,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852470635}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.15, y: -11.22, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 4.24, y: -13.21, z: 0}
+  m_LocalScale: {x: 1, y: 0.7, z: 1}
   m_Children:
   - {fileID: 1461524113}
   - {fileID: 1542947290}
@@ -8047,17 +8047,17 @@ PrefabInstance:
     - target: {fileID: 3038105737725660591, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: m_BackGroundColor.r
-      value: 0.24528301
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3038105737725660591, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: m_BackGroundColor.g
-      value: 0.24528301
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3038105737725660591, guid: fac50aa0004798046984f26c086f19ed,
         type: 3}
       propertyPath: m_BackGroundColor.b
-      value: 0.24528301
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fac50aa0004798046984f26c086f19ed, type: 3}
@@ -8753,7 +8753,7 @@ PrefabInstance:
     - target: {fileID: 5688663179952373568, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.51
+      value: 13.95
       objectReference: {fileID: 0}
     - target: {fileID: 5688663179952373571, guid: a8f77697ba7368c4ca54916c7ebcfcf0,
         type: 3}
