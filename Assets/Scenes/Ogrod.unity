@@ -407,7 +407,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.size
-      value: 29
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -719,7 +719,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[19].time
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -735,7 +735,7 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[20].time
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
@@ -863,22 +863,189 @@ PrefabInstance:
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[29].nameId
-      value: V-Gnome
+      value: V-Komoda
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[29].text
-      value: '*Hey there, old bud.*'
+      value: 'Vincent: How could I possibly know the combination to unlock this?'
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[29].time
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
         type: 3}
       propertyPath: dialogue.Array.data[0].time
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[30].nameId
+      value: M-Komoda
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[30].text
+      value: 'Barbra: I''ve seen this somewhere else...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[30].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[31].nameId
+      value: V-Krasnal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[31].text
+      value: 'Vincent: I''ve always felt a bond between us, but I don''t remember
+        this drawing.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[31].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[32].nameId
+      value: M-Krasnal
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[32].text
+      value: 'Barbra: Oh yes, I could see the artist in you from your early years.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[32].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[33].nameId
+      value: V-Sejf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[33].text
+      value: 'Vincent: Locked. I didn''t know that we have safe.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[33].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[34].nameId
+      value: M-Sejf
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[34].text
+      value: 'Barbra: Key is on the shelf, but I can''t reach it.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[34].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[35].nameId
+      value: M-Sejf-Kredka
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[35].text
+      value: 'Barbra: Great cryon for great artist!'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[35].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[36].nameId
+      value: M-Sejf-Zdjecie
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[36].text
+      value: 'Barbra: It was usable back then. It wasn''t as broken as now.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[36].time
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[37].nameId
+      value: M-Sejf-Nagroda
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[37].text
+      value: 'Barbra: It was his treasure. In my opinion he deserved more.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[37].time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[38].nameId
+      value: M-Wedding
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[38].text
+      value: 'Barbra: 1996... It was a good time. Time of happiness and joy. We were
+        so young.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[38].time
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[39].nameId
+      value: V-Flower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[39].text
+      value: 'Vincent: I''d like to help you, but I''m afraid it''s too late...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[39].time
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[40].nameId
+      value: M-Flower
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[40].text
+      value: 'Barbra: '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8846033130528072346, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d,
+        type: 3}
+      propertyPath: dialogue.Array.data[40].time
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8846033130528072343, guid: 084dc0e7b5bc4f34b91f2cb4e6e41a0d, type: 3}
@@ -1044,7 +1211,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 24.814842
+  orthographic size: 18.613914
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1068,7 +1235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 591910966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.480834, y: 0.018000603, z: -20.513672}
+  m_LocalPosition: {x: 2.4808345, y: 0.018000603, z: -20.513672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2698,7 +2865,7 @@ PrefabInstance:
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.480834
+      value: 2.4808345
       objectReference: {fileID: 0}
     - target: {fileID: 7826312674849702588, guid: 0cbfe67a7926603439744878d5ccf641,
         type: 3}
