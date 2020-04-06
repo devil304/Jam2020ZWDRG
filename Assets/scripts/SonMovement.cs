@@ -52,6 +52,7 @@ public class SonMovement : MonoBehaviour {
 
     private void FixedUpdate () {
         if (Move && !FadeOutIn) {
+            Vector3 tmp = transform.position;
             myRB2D.MovePosition ((Vector2) transform.position + new Vector2 (InputValue, myRB2D.velocity.y) * speed * Time.fixedDeltaTime);
             if (InputValue == 0) {
                 Move = false;
